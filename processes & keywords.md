@@ -9,3 +9,12 @@
 
 ### Can set Gemini GPT token and search here: 
 1. https://console.cloud.google.com/vertex-ai/studio/freeform?project=carbon-feat-280309
+
+### neurons: 
+These are mathamatical functions that work together to solve a problem. A neuron just hold a value between 0 and 1. This number inside neuron is called activation. Some groups sets firing cause some other groups to fire. 
+
+### Weights: 
+These are numbers  
+
+![image](https://github.com/user-attachments/assets/566eadae-4a26-4cee-be07-88b8209186ef)
+Here, parts of image checked in second layer and more similar things are matched in 3rd layer.  
