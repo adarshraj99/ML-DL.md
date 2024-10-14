@@ -25,7 +25,7 @@ But, how 2nd layer will know which is vertical line or horizontal line ? Basical
 
 
 ### Weights: 
-These are numbers assigned as connection between neurons. Basecally it is number between -n and +n (different for different models). Higher weight will confirm better connection and vise versa. Neuron data with Higher weight will have more chance of passing to next neuron layer for further processing. 
+These are numbers assigned as strength between neurons connection. Basecally it is number between -n and +n (different for different models). Higher weight will confirm better connection and vise versa. Neuron data with Higher weight will have more chance of passing to next neuron layer for further processing. 
 
 ![image](https://github.com/user-attachments/assets/da0dff38-e94c-46aa-8501-93fed23a8975)
 
@@ -58,7 +58,7 @@ The secons layer is expected to pick up on edges and 3rd layer picks up the patt
 ![image](https://github.com/user-attachments/assets/75a29064-ccde-4303-acb4-a405a76cb8e0)
 
 ### Deep Learning : 
-Finding the correct weights and biases by the incorrect outputs to get the correct output.
+Finding the correct weights and biases by the incorrect outputs comparision with correct output.
 
 Weights ,Activations, biases are passed in the sigmoid function to calculate the forward transition of activations from one to next layer.  
 
