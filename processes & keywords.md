@@ -11,12 +11,32 @@
 1. https://console.cloud.google.com/vertex-ai/studio/freeform?project=carbon-feat-280309
 
 ### neurons: 
-These are mathamatical functions that work together to solve a problem. A neuron just hold a value between 0 and 1. This number inside neuron is called activation. Some groups sets firing cause some other groups to fire. 
+These are mathamatical functions that work together to solve a problem. A neuron just hold a value between 0 and 1. This number inside neuron is called **activation**. Some groups sets firing cause some other groups to fire. 
 
-### Weights: 
-These are numbers  
 
 ![image](https://github.com/user-attachments/assets/566eadae-4a26-4cee-be07-88b8209186ef)
+
 Here, splited parts of the input image is checked in second layer. These splited parts may look like a straight vertical or tilted line(|or/) and a straight horozontal line(-) to make '7'. 
-But, how 2nd layer will know which is vertical line or horizontal line ? Basically how it will find the parts of the image ? 
+But, how 2nd layer will know which is vertical line or horizontal line ? Basically how it will find the parts of the image ? It is calculated by **weights**
+
+
+### Weights: 
+These are numbers assigned as connection between neurons. Basecally it is number between -n and +n (different for different models). Higher weight will confirm better connection and vise versa. Neuron data with Higher weight will have more chance of passing to next neuron layer for further processing. 
+
+![image](https://github.com/user-attachments/assets/da0dff38-e94c-46aa-8501-93fed23a8975)
+
+It is called weighted sum. Here, the w1,w2,w3,w4,......wn are weights and a1,a2,a3,.......an are **activations**. When, we calculate all the weights in a matrix of pixels below. It is seen that the most positive weights for part(-) of input(7) is at the correct position.
+
+Here the weighted sum is equal to the value of pixels of the needed part. 
+
+![image](https://github.com/user-attachments/assets/1f6279e2-aff0-4cf2-a2ca-81b76048c425)
+
+Here, the activation should be between 0 to 1. A common function called **sigmoid function or logistic curve** does this conversion from big scale (-n to +n) to 0 to 1 scale value update. 
+
+![image](https://github.com/user-attachments/assets/0df9289a-29d1-4df3-8d5c-0a4625f4dbc6)
+
+
+
+
+
 
