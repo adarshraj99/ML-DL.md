@@ -17,4 +17,6 @@ These are mathamatical functions that work together to solve a problem. A neuron
 These are numbers  
 
 ![image](https://github.com/user-attachments/assets/566eadae-4a26-4cee-be07-88b8209186ef)
-Here, parts of image checked in second layer and more similar things are matched in 3rd layer.  
+Here, splited parts of the input image is checked in second layer. These splited parts may look like a straight vertical or tilted line(|or/) and a straight horozontal line(-) to make '7'. 
+But, how 2nd layer will know which is vertical line or horizontal line ? Basically how it will find the parts of the image ? 
+
