@@ -46,9 +46,11 @@ Here, the activation should be between 0 to 1. A common function called **sigmoi
 ![image](https://github.com/user-attachments/assets/0df9289a-29d1-4df3-8d5c-0a4625f4dbc6)
 
 
-### Weight Quantization: 
+## Weight Quantization: 
+
 **Size** of a model depends on model weight size and data type's precision. 
 To save memory weights can be stored with lower precision data types by process known as quantization. There are 2 main major mathods : 
+
 #### Post-Training Quantization (PTQ): 
 weights of an already trained model are converted to lower precision without any retraining. It is easier todo and causes potential performance degradation.
 
@@ -62,7 +64,16 @@ Mostly Floating point data are used due to precision. Typically floating point n
 
 `Significand/Mantissa` : The remaining bits are used to store the significand or mantissa. This represents the significant digits of the number. The precision of the number heavily depends on the length of the significand.
 
-Formula used for this representation is : `$(-1)^{sign} * (base)^{exponent}$ * significand`
+Formula used for this representation is : $(-1)^{sign} * (base)^{exponent}$ * significand
+
+
+#### Most commonly used data types in DL:  `float32 (FP32), float16 (FP16), and bfloat16 (BF16/brain floating point)`. 
+
+Both float16 and bfloat16 differs in precision. 
+Float16: FP16 uses 16 bits to store a number. It uses 1 bit for the sign, 5 bits for the exponent, and 10 bits for the mantissa. More memory-efficient which accelerates computations but less accuracy.
+bFloat16: also 16bit. It uses 1 sign bit, 8 exponent bits, and 7 mantissa bits. This is more accurate.
+FP32: one bit for the sign, eight for the exponent, and the remaining 23 for the significand. It provides a high degree of precision, the downside of FP32 is its high computational and memory footprint.
+
 
 
 
