@@ -62,7 +62,7 @@ Mostly Floating point data are used due to precision. Typically floating point n
 
 `Significand/Mantissa` : The remaining bits are used to store the significand or mantissa. This represents the significant digits of the number. The precision of the number heavily depends on the length of the significand.
 
-Formula used for this representation is : $(-1)^{sign} * (base)^{exponent}$ * significand
+Formula used for this representation is : `$(-1)^{sign} * (base)^{exponent}$ * significand`
 
 
 
