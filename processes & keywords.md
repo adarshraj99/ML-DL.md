@@ -46,6 +46,7 @@ Here, the activation should be between 0 to 1. A common function called **sigmoi
 ![image](https://github.com/user-attachments/assets/0df9289a-29d1-4df3-8d5c-0a4625f4dbc6)
 
 
+
 ## Weight Quantization: 
 
 **Size** of a model depends on model weight size and data type's precision. 
@@ -75,8 +76,10 @@ Float16: FP16 uses 16 bits to store a number. It uses 1 bit for the sign, 5 bits
 
 bFloat16: also 16bit. It uses 1 sign bit, 8 exponent bits, and 7 mantissa bits. This is more accurate.
 
-FP32: one bit for the sign, eight for the exponent, and the remaining 23 for the significand. It provides a high degree of precision, the downside of FP32 is its high computational and memory footprint.
+FP32(full precision): one bit for the sign, eight for the exponent, and the remaining 23 for the significand. It provides a high degree of precision, the downside of FP32 is its high computational and memory footprint.
+![image](https://github.com/user-attachments/assets/7adf9588-0e78-4894-9647-1acb4279a31a)
 
+#### 8-bit Quantization: 
 
 
 
