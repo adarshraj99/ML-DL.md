@@ -45,6 +45,27 @@ Here, the activation should be between 0 to 1. A common function called **sigmoi
 
 ![image](https://github.com/user-attachments/assets/0df9289a-29d1-4df3-8d5c-0a4625f4dbc6)
 
+
+### Weight Quantization: 
+**Size** of a model depends on model weight size and data type's precision. 
+To save memory weights can be stored with lower precision data types by process known as quantization. There are 2 main major mathods : 
+#### Post-Training Quantization (PTQ): 
+weights of an already trained model are converted to lower precision without any retraining. It is easier todo and causes potential performance degradation.
+
+#### Quantization-Aware Training (QAT): 
+weight conversion happens in process during the pre-training or fine-tuning stage ,resulting in enhanced model performance. It is computationally expensive and demands **representative** (data that has the features or data points that the application is designed to predict or classify) **training data**. 
+
+Mostly Floating point data are used due to precision. Typically floating point numbers uses n bits to store a numerical value. These n bits are partitioned into 3 distinct components:
+`sign`: +ve or -ve number. It uses one bit where 0 indicates a positive number and 1 signals a negative number.
+
+`exponent` : The exponent is a segment of bits that represents the power to which the base (usually 2 in binary representation) is raised. The exponent can also be positive or negative, allowing the number to represent very large or very small values.
+
+`Significand/Mantissa` : The remaining bits are used to store the significand or mantissa. This represents the significant digits of the number. The precision of the number heavily depends on the length of the significand.
+
+Formula used for this representation is : $(-1)sign$
+
+
+
 ### Activation:
 Activation of the neurons are bascically a measure of how positive the relevant weighted sum is. More activation makes the neuron more light up. 
 
