@@ -80,6 +80,14 @@ FP32(full precision): one bit for the sign, eight for the exponent, and the rema
 ![image](https://github.com/user-attachments/assets/7adf9588-0e78-4894-9647-1acb4279a31a)
 
 #### 8-bit Quantization: 
+2 major ways to 8-bit quantization. 
+- absolute maximum (absmax) quantization: the original number is divided by the absolute maximum value of the tensor and multiplied by a scaling factor (127) to map inputs into the range [-127, 127].  To retrieve the original FP16 values, the INT8 number is divided by the quantization factor, as there is some loss in precision due to rounding.
+  ex: If we have an absolution maximum value of 3.2. A weight of 0.1 would be quantized to round(0.1* \frac{127}{3.2}) = 4.
+  
+![image](https://github.com/user-attachments/assets/26984fc3-a785-43bc-a0b3-db83cbcc7deb)
+
+- asymmetric one with zero-point quantization:
+
 
 
 
