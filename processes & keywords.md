@@ -151,4 +151,14 @@ Minimizing the avg of the training data is done here to actual output keeps gett
 
 ### Gradient Descent: 
 Machine learning is 'minimizing the cost function'. So. Neurons have contineously changing activations(between 0 to 1) rather 0(Inactive) or 1(Active). 
-Thisprocess of contineously finding the descending vector is called gradient descent. 
+This process of contineously finding the descending vector is called gradient descent. 
+
+Negative and positive in gradient represents up and down and magnitude tells which change(weights i.e. Neuron's connections) matters more and which matters less. 
+![image](https://github.com/user-attachments/assets/58f230d3-4b30-4824-aad0-fe2f215eb39b)
+
+### Cons:
+- After learning ,if machine is fed with a random non-sense (non-number) image. It confidantly gives output as a fixed number.
+- Even it can recognizes the number. It cannot draw the numbers.
+- Model is actually not lwarning anything it is actually memorizing from the input dataset and giving output data. ex: if a trained model is fed with new wrong data set repetedly. It starts recognizing with the wrong data.
+    
+  
