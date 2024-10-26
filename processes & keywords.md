@@ -31,7 +31,7 @@ But, how 2nd layer will know which is vertical line or horizontal line ? Basical
 
 
 ### Weights: 
-These are numbers assigned as strength between neurons connection. Basecally it is number between -n and +n (different for different models). Higher weight will confirm better connection and vise versa. Neuron data with Higher weight will have more chance of passing to next neuron layer for further processing. 
+These are numbers assigned as strength between neurons connection. Basically it is number between -n and +n (different for different models). Higher weight will confirm better connection and vise versa. Neuron data with Higher weight will have more chance of passing to next neuron layer for further processing. 
 
 ![image](https://github.com/user-attachments/assets/da0dff38-e94c-46aa-8501-93fed23a8975)
 
@@ -125,3 +125,9 @@ Weights ,Activations, biases are passed in the sigmoid function to calculate the
 ![image](https://github.com/user-attachments/assets/c63bdce7-3137-4016-9ffa-3d840521bef0)
 
 Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is activation. ReLU is Rectified Linear Unit. 
+
+### Training steps :
+Training starts with input number to a untrained model and after a wrong output. The model should get error response as penalty. Here, Penalty is output of a cost function which returns expected data. Mathamatically:
+It is addition of the squares of diffrences between untrained model output and the expected output. 
+![image](https://github.com/user-attachments/assets/df4eb7e2-e1c0-4940-bc7a-b99b0cba0d8c)
+
