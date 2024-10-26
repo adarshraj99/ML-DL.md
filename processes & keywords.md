@@ -129,21 +129,26 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 ### Training steps :
 Training starts with input number to a untrained model and after a wrong output. The model should get error response as penalty. Here, Penalty is output of a cost function which returns expected data. Mathamatically:
 It is addition of the squares of diffrences between untrained model output and the expected output. 
+
 ![image](https://github.com/user-attachments/assets/df4eb7e2-e1c0-4940-bc7a-b99b0cba0d8c)
 This sum is small when model identifies the input image correctly and the sum is bigger when model cannot identifies the image correctly. 
 
 Here, average of these penalty (sum) is calculated and this is the updated to network as error(How bad the trained model should feel). 
 
 Now, Need to change these weights and biases to fix the errors. So, We try to find the multiple Local minimums and then the Global minimum from these with help of the function. ex, ideally a function which takes single input and gives single output. here, need to find the input which gives minimum output for the function with calculas. 
+
 ![image](https://github.com/user-attachments/assets/71114fe4-f590-45ea-bc07-4393b1265a05)
 
 But, generally we don't have single input ideal condition. We have multiple inputs and multiple outputs. so, the global minimum is found mathamatically with gradient descent of function. This gradient is direction of the steepest accent(increase the function output) most quickly. And, going opposite is the steepest descent(decrease the function output) most quickly. The length of the vector signifies how steep is the sopes are.
+
 ![image](https://github.com/user-attachments/assets/e085aa4a-5425-49fd-a1f7-2e6665c1bef8)
 
 getting vectors at all the points of different directions and lengths will make it easier to idetify the needed point. 
+
 ![image](https://github.com/user-attachments/assets/676b824f-7b71-4cf8-935d-039790c5c91a)
 
-This is for 1 x-y plane only. so, keep repeating it and keep going downhill to get vectors of different planes. 
+This is for 1 x-y plane only. so, keep repeating it and keep going downhill to get vectors of different planes.
+
 ![image](https://github.com/user-attachments/assets/aeb8c10b-5515-426a-bcec-68dd0b39a58f)
 
 The negative gradient of the cost function is just a vector(direction). This is going to cause the most decrease to the cost function. 
@@ -154,6 +159,7 @@ Machine learning is 'minimizing the cost function'. So. Neurons have contineousl
 This process of contineously finding the descending vector is called gradient descent. 
 
 Negative and positive in gradient represents up and down and magnitude tells which change(weights i.e. Neuron's connections) matters more and which matters less. 
+
 ![image](https://github.com/user-attachments/assets/58f230d3-4b30-4824-aad0-fe2f215eb39b)
 
 ### Cons:
