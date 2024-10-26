@@ -8,12 +8,13 @@
    - 2nd : Andrej karphathy zaro to hero series.
    - 3rd : Deep Learning specilization by Andrew Ng and Younes bensounda Mourri.
    - 4th : Hugging Face NLP course (for NLP advanced concepts)
-   - 5th : Hands on code prractice (Leetcode) and ML,DL code practice (on Kaggle Quiz and competitions and reddit Quiz Questions).
-   - 6th : Try implementing needed libraries and it's use cases.
-   - 7th : Try implementing research papers if intrested in research.If, already implemented paper is there, try to implement own way and compare with others.
+   - 6th : Hands on code prractice (Leetcode) and ML,DL code practice (on Kaggle Quiz and competitions and reddit Quiz Questions).
+   - 7th : Try implementing needed libraries and it's use cases.
+   - 8th : Try implementing research papers if intrested in research.If, already implemented paper is there, try to implement own way and compare with others.
          : Or, goto production (implementation) side for maing already deployed apps better if intrested.
-   - 8th : Participate in compititions and looks for other's codes. It will make prepared for v.good interviews also.
-   - 9th : Get good jobs .Do Networking, Keep posting works on linkedIn.
+   - 9th : Participate in compititions and looks for other's codes. It will make prepared for v.good interviews also.
+   - 10th: Get good jobs .Do Networking, Keep posting works on linkedIn.
+   
   
 3. Other Free short courses:
    - Matrix algera For Engineers(By Jeffery R. Chasnoy)
@@ -22,7 +23,15 @@
    - Khan Academy
    - Brillient.org
    - projects: Free Samples on Simplilearn youTube Channel: Flower Detection, Face Detection, Parkinsons Disease Detection, Handwriting digit detection.
+  
+4. 3Blue1Brown recomendations:
+  - Michael Nielsen book: http://neuralnetworksanddeeplearning.com/  The book walks through the code behind the example in these videos, which you can find here: https://github.com/mnielsen/neural-networks-and-deep-learning
+  - Chris ola blog: https://colah.github.io/
+  - Other topics collections: https://distill.pub/
+  - Other youTube good resources: https://www.youtube.com/watch?v=i8D90DkCLhI     and     https://www.youtube.com/watch?v=bxe2T-V8XRs
+    
 
+    
 4. Some ML Algorithms to learn:
    - naive Bayes.
    - Support vector Machine
