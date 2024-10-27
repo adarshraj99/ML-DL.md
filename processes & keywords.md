@@ -95,12 +95,8 @@ These variables are used to quantize or dequantize weights.
 
 
 
-
-
-
-
 ### Activation:
-Activation of the neurons are bascically a measure of how positive the relevant weighted sum is. More activation makes the neuron more light up. 
+Activation of the neurons are bascically a measure of how positive the relevant weighted sum is. More activation makes the neuron more light up. Activations are not directly controlled for neural network trainings. We train weights and biases only. Activations are influenced only.
 
 ![image](https://github.com/user-attachments/assets/e7aeb112-28aa-418f-a6ff-c93c70086d62)
 
@@ -116,6 +112,9 @@ weights and biases.
 The secons layer is expected to pick up on edges and 3rd layer picks up the patterns. 
 
 ![image](https://github.com/user-attachments/assets/75a29064-ccde-4303-acb4-a405a76cb8e0)
+Note: Neurons that work together, fire together.
+Target is to make the weights for expected output neuron more (to make connected neuron more active) than the non-expected (incorrect) output neuron.  
+
 
 ### Deep Learning : 
 Finding the correct weights and biases by the incorrect outputs comparision with correct output.
@@ -161,6 +160,14 @@ This process of contineously finding the descending vector is called gradient de
 Negative and positive in gradient represents up and down and magnitude tells which change(weights i.e. Neuron's connections) matters more and which matters less. 
 
 ![image](https://github.com/user-attachments/assets/58f230d3-4b30-4824-aad0-fe2f215eb39b)
+
+
+### Back propagation: 
+Each of the neurons here have its own thoughts in this 2nd to last layer. And, we want all other than needed neuron (max positive neuron) to be less active. So, the thoughts(weights) of all the outputs neurons are added 
+![image](https://github.com/user-attachments/assets/ecbde5f1-ca16-4d15-aa8a-00a1b1c66646)  ![image](https://github.com/user-attachments/assets/62256e2a-6ec0-4a56-8bbb-aa91d31e24ca)
+
+
+
 
 ### Cons:
 - After learning ,if machine is fed with a random non-sense (non-number) image. It confidantly gives output as a fixed number.
