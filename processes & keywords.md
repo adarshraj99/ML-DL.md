@@ -166,8 +166,20 @@ Negative and positive in gradient represents up and down and magnitude tells whi
 Each of the neurons here have its own thoughts in this 2nd to last layer. And, we want all other than needed neuron (max positive neuron) to be less active. 
 ![image](https://github.com/user-attachments/assets/ecbde5f1-ca16-4d15-aa8a-00a1b1c66646)  
 
-So, the thoughts(weights) of all the outputs neurons are added 
+So, the thoughts(weights) of all the outputs neurons are added to see the list of +ve and -ve weights which should happen to the 2nd last layer.
+
 ![image](https://github.com/user-attachments/assets/62256e2a-6ec0-4a56-8bbb-aa91d31e24ca)
+
+Once we have these, knowing which one should be stronger weight ,we can back propagate and update weights and biases and moving to the initial neural layer. And, same back propagation is used for multiple training examples. 
+
+Then, average of all neuron weights are found for different training data. This collection is negative gradient of the cost function.  
+
+![image](https://github.com/user-attachments/assets/a4b4f274-df72-44a9-8dfb-ab8e5e25040b)
+
+### Stochastic gradient descent:
+Gradient descent is very slow and computatinally difficient. So, in Stochastic gradient descent training the training data is divided into multiple datas. Each bach of these data is fed up one by one. We find gradient descent of each of these training data. 
+
+### Backpropagtion Calculas:
 
 
 
