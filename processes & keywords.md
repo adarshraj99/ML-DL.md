@@ -203,14 +203,41 @@ To calculate :
 This means it is 2 times the diffrence between netwotrk's output(a(L)) and what we wanted to be y.
 ```
   δa(L)         
-----------  =      σ ‘ (z(L))   i.e. sigmoid function
+----------  =      σ‘(z(L))   i.e. sigmoid function
   δz(L)             
 ```
 ```
   δz(L)         
-----------  =      a(L-1)
+----------  =      a(L-1)   # so the amount weight δw(L) can influence the last layer is ,depends how strong the previous neuron is.
   δw(L)             
 ```
+
+The big calculation of δ(c)/δ(w(L)) can be written as below (for a multi layer cum multi neuron example) :
+
+![image](https://github.com/user-attachments/assets/8ad1f9e5-edd0-4d23-b7bb-1871a90e3bc6)
+
+This is just one component of the gradient vector :∇c
+
+![image](https://github.com/user-attachments/assets/3494aea2-ad3b-4aee-b8a9-7a7ef1089694)
+
+from gradient vector image. To calculate  δ(b) for bias. just replace w(L) with b(L)
+```
+δ(c)            δ( w(L)*a(L-1)+b(L) )         δ( σ (w(L)*a(L-1)+b(L)) )                              δ c
+---------  =   ---------------------------  x  -----------------------------------  x  -----------------------------------
+δb(L)                  δ(b(L))                          δ( w(L)*a(L-1)+b(L) )             δ( σ (w(L)*a(L-1)+b(L)) )
+```
+
+This method is used for backpropagation to check how sensitive the cost funtion is to previous weights and biases. 
+
+This same calculation is done on different neural layers each with multiple neurons: 
+
+![image](https://github.com/user-attachments/assets/a751fe0b-6bac-4a3c-8ad5-8a2e74dfb685)
+
+Here the only difference is: 1 single neuron from one layer influences all neurons of the other layer. so, should sum over layer L. 
+
+
+
+
 
 
 
@@ -219,4 +246,5 @@ This means it is 2 times the diffrence between netwotrk's output(a(L)) and what 
 - Even it can recognizes the number. It cannot draw the numbers.
 - Model is actually not lwarning anything it is actually memorizing from the input dataset and giving output data. ex: if a trained model is fed with new wrong data set repetedly. It starts recognizing with the wrong data.
     
-  
+
+### 
