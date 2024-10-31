@@ -234,7 +234,10 @@ This same calculation is done on different neural layers each with multiple neur
 ![image](https://github.com/user-attachments/assets/a751fe0b-6bac-4a3c-8ad5-8a2e74dfb685)
 
 Here the only difference is: 1 single neuron from one layer influences all neurons of the other layer. so, should sum over layer L. 
+These solves the way to find the bottom most point. 
 
+
+### How LLM works: 
 
 
 
@@ -246,5 +249,3 @@ Here the only difference is: 1 single neuron from one layer influences all neuro
 - Even it can recognizes the number. It cannot draw the numbers.
 - Model is actually not lwarning anything it is actually memorizing from the input dataset and giving output data. ex: if a trained model is fed with new wrong data set repetedly. It starts recognizing with the wrong data.
     
-
-### 
