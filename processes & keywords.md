@@ -180,6 +180,8 @@ Then, average of all neuron weights are found for different training data. This 
 Gradient descent is very slow and computatinally difficient. So, in Stochastic gradient descent training the training data is divided into multiple datas. Each bach of these data is fed up one by one. We find gradient descent of each of these training data. 
 
 ### Backpropagtion Calculas:
+Consider connection between 2 nodes ((last neuron) and (2nd last neuron)) namely a(L) and a(L-1) by a single neural connection. Consider the desired output to be y with value 1. 
+Here, (a(L)-y)^{2} is cost c. 
 
 
 
