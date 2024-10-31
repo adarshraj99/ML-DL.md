@@ -108,7 +108,7 @@ In cases there  may be condition to not light up pixel when weighted sum < 10. T
 ![image](https://github.com/user-attachments/assets/2ab5d8f3-7678-4684-9a5d-ea32db974ff8)
 
 Here, 1st layer have 784 neurons, 2nd layer have 16 neurons and 3rd have 16 neurons and 4th have 10 neurons. Every neuron have it's own biases. Here, it is 13,002
-weights and biases. 
+weights and biases. Here, 1st layer neurons dosen't have any biases as they only receive raw data so, it is not 784+16+16+10 for bias adding. 
 The secons layer is expected to pick up on edges and 3rd layer picks up the patterns. 
 
 ![image](https://github.com/user-attachments/assets/75a29064-ccde-4303-acb4-a405a76cb8e0)
