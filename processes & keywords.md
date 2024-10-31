@@ -184,7 +184,11 @@ Consider connection between 2 nodes ((last neuron) and (2nd last neuron)) namely
 Here, $(a(L)-y)^{2}$ is cost c. 
 also, last neuron activation is determinded by previous neuron activation multiplied by weights plus some bias. 
 `a(L) = σ (w(L)*a(L-1)+b(L))`
-* here, (L) and (L-1) means last and second last neurons.
+* Note: here, (L) and (L-1) means last and second last neurons.
+So, calculating `w(L)*a(L-1)+b(L)` and y will give the function cost.
+
+ Think these on a number line: adjusting w(L) will adjust a(L) value to some number in a number line. and a(L) adjustment will adjust c in number line. Saying diffrently : what is derivative of c  w.r.t.  w(L)   i.e.  δ(c)/δw(L)
+ 
 
 
 
