@@ -189,8 +189,11 @@ So, calculating `w(L)*a(L-1)+b(L)` and y will give the function cost.
 
  Think these on a number line: adjusting w(L) will adjust a(L) value to some number in a number line. and a(L) adjustment will adjust c in number line. Saying diffrently : it is derivative of c  w.r.t.  w(L)   i.e.  `δ(c)/δw(L)`.  
 To calculate : 
-$$δ(c)/δw(L)$$
-=δ( w(L)*a(L-1)+b(L) ) / δ(w(L))  *  δ( σ (w(L)*a(L-1)+b(L)) ) / δ( w(L)*a(L-1)+b(L) )  *  δc / δ( σ (w(L)*a(L-1)+b(L)) )
+```
+δ(c)            δ( w(L)*a(L-1)+b(L) )         δ( σ (w(L)*a(L-1)+b(L)) )                  δc / δ( σ (w(L)
+---------  =   ---------------------------  x  -----------------------------------  x  -----------------------------------
+δw(L)                  δ(w(L))                          δ( w(L)*a(L-1)+b(L) )                       a(L-1)+b(L)) )
+```
  
 
 
