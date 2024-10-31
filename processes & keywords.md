@@ -195,11 +195,11 @@ To calculate :
 δw(L)                  δ(w(L))                          δ( w(L)*a(L-1)+b(L) )             δ( σ (w(L)*a(L-1)+b(L)) )   
 ```
 ![image](https://github.com/user-attachments/assets/a11528af-f3a9-4b6e-bc6c-aeba2ce31119)
- 
+```
   δ(c)  
 --------- = 2 (a(L)-y)
-δ(a(L))  
-
+  δ(a(L))  
+```
 
 
 ### Cons:
