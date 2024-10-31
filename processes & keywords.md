@@ -200,6 +200,18 @@ To calculate :
 --------- = 2 (a(L)-y)
   δ(a(L))  
 ```
+This means it is 2 times the diffrence between netwotrk's output(a(L)) and what we wanted to be y.
+```
+  δa(L)         
+----------  =      σ ‘ (z(L))   i.e. sigmoid function
+  δz(L)             
+```
+```
+  δz(L)         
+----------  =      a(L-1)
+  δw(L)             
+```
+
 
 
 ### Cons:
