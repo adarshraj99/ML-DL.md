@@ -1,3 +1,6 @@
+#### Convolutional Neural Networks also called Computer vision.
+#### 
+
 1. Topics to learn:
   - Frameworks: PyTorch(For DL), TenserFlow(For DL), scikit Learn, JAX(For Advanced Researches).
   - Libraries: Caffe, Microsoft Cognitive tool, D4JS, Numpy, Pandas, matplotlib, Hugging Face.
@@ -6,9 +9,9 @@
 2. Courses free and HQ todo:(Courses are listed in order todo for better understanding):
    - 1st : Google's ML crash course with tensorflow APIs.
    - 2nd : Andrej karphathy zaro to hero series.
-   - 3rd : Deep Learning specilization by Andrew Ng and Younes bensounda Mourri.
+   - 3rd : Machine Learning specilization by Andrew Ng and Younes bensounda Mourri.(There is Deep learning Specilization course also by Andrew NG).
    - 4th : Hugging Face NLP course (for NLP advanced concepts)
-   - 6th : Hands on code prractice (Leetcode) and ML,DL code practice (on Kaggle Quiz and competitions and reddit Quiz Questions).
+   - 6th : Hands on code prractice (Leetcode) and ML,DL code practice (on Kaggle Quiz and competitions and reddit Quiz Questions)(Check pre-developed projects on kaggle).
    - 7th : Try implementing needed libraries and it's use cases.
    - 8th : Try implementing research papers if intrested in research.If, already implemented paper is there, try to implement own way and compare with others.
          : Or, goto production (implementation) side for maing already deployed apps better if intrested.
