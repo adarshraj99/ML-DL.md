@@ -18,7 +18,8 @@
   
 3. Other Free short courses:
    - Matrix algera For Engineers(By Jeffery R. Chasnoy)
-   - Deeplearning Course for all maths(Intermideate): https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science?action=enroll
+   - Maths: Deeplearning Course for all maths(Intermideate): https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science?action=enroll
+   - Statistics : https://www.coursera.org/learn/stanford-statistics/home/module/1
    - EdX Introduction to probablity (By harward University)
    - Texas University UTAustinX: Linear Algebra-Foundations to frontiers.
    - Khan Academy
