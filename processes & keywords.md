@@ -1,6 +1,11 @@
 ## Keywords: 
 #### Neurral Networks: 
 Network of neurons. Neurons are a Function to be created if we know some Actual Inputs and Actual Outputs. It works with some data randomeness also. It can take multiple inputs and majorly gives 1 output. Weights and Biases are the parameters of the neurons which changes with the neural training. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent. 
+
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/b11cd770-ac24-47bb-8978-e403256a9e92">
+
+In a linear 2D neuron like F(x)=W(x)+b with W as weight and b as bias. If we change W ,the outputs on 2D graph rotates and if we change the b the output on the 2D graph changes position as up and down. 
+
 #### Neuron: 
 A neuron is an 
 #### Temprature: 
