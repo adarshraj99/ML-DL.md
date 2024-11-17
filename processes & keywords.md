@@ -1,4 +1,9 @@
 ## Keywords: 
+#### Neurral Networks: 
+Network of neurons. Neurons are a Function to be created if we know some Actual Inputs and Actual Outputs. It works with some data randomeness also. It can take multiple inputs and majorly gives 1 output. Weights and Biases are the parameters of the neuron. 
+Later it gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent. 
+#### Neuron: 
+A neuron is an 
 #### Temprature: 
 Temperature is a parameter in generative AI (GenAI) that controls the randomness of the output. Higher temprature means more creative output and lower temprature gives more predictive output. It is in range 0-2 and default set in google gemini is 1. 
 #### Tokens: 
