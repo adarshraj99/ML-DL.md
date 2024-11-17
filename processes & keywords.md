@@ -1,7 +1,6 @@
 ## Keywords: 
 #### Neurral Networks: 
-Network of neurons. Neurons are a Function to be created if we know some Actual Inputs and Actual Outputs. It works with some data randomeness also. It can take multiple inputs and majorly gives 1 output. Weights and Biases are the parameters of the neuron. 
-Later it gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent. 
+Network of neurons. Neurons are a Function to be created if we know some Actual Inputs and Actual Outputs. It works with some data randomeness also. It can take multiple inputs and majorly gives 1 output. Weights and Biases are the parameters of the neurons which changes with the neural training. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent. 
 #### Neuron: 
 A neuron is an 
 #### Temprature: 
