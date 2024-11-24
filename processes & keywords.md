@@ -151,7 +151,8 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 * Can process larger volumes of data but cannot be trusted.  
 
 ### Semi- supervised learning: 
-Can be used for both labled and unlabled data for training. Most useful when we need only few suoervised data training and later data can be easily predicted eg: medical x-ray examination model. 
+* Can be used for both labled and unlabled data for training.
+* Most useful when we need only few supervised data training and later data can be easily predicted eg: medical x-ray examination model. 
 
 ### Training steps :
 Training starts with input number to a untrained model and after a wrong output. The model should get error response as penalty. Here, Penalty is output of a cost function which returns expected data. Mathamatically:
