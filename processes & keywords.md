@@ -1,6 +1,6 @@
 ## Keywords: 
 #### Neural Networks: 
-Network of neurons. Neurons are a Function to be created if we know some Actual Inputs and Actual Outputs. It works with some data randomeness also. It can take multiple inputs and majorly gives 1 output. Weights and Biases are the parameters of the neurons which changes with the neural training. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent. 
+Network of neurons. Neurons are a Function to be created if we know some Actual Inputs and Actual Outputs.Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/b11cd770-ac24-47bb-8978-e403256a9e92">
 
@@ -8,8 +8,8 @@ In a linear 2D neuron like F(x)=W(x)+b with W as weight and b as bias. If we cha
 
 But, Linear function can only combine to make linear functions. But, we need non-linear more complex functions. 
 
-#### Neuron: 
-A neuron is an 
+#### Labels: 
+Answer or output of the target variable that a model is trying to predict. This is used to learn and make predictions.
 #### Temprature: 
 Temperature is a parameter in generative AI (GenAI) that controls the randomness of the output. Higher temprature means more creative output and lower temprature gives more predictive output. It is in range 0-2 and default set in google gemini is 1. 
 #### Tokens: 
@@ -135,6 +135,23 @@ Weights ,Activations, biases are passed in the sigmoid function to calculate the
 ![image](https://github.com/user-attachments/assets/c63bdce7-3137-4016-9ffa-3d840521bef0)
 
 Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is activation. ReLU is Rectified Linear Unit. 
+
+### Supervised Learning: 
+* A type of machine learning where the model is trained on labeled data. Here, model is trained to get a generalized answer for an new input data.  
+* More accurate than un-supervised learning. Needs human intervention.
+* Supervised learning models are able to predict future.
+* More commenly used.
+* These can be used with non-labled data.
+* Can find hidden pattern in data which un-supervised learning cannot find.  
+
+### Unsupervised Learning: 
+* A type of machine learning where the model is trained on unlabeled data to find hidden patterns. 
+* Un-supervised learning models are less accurate than supervised learning and these models cannot make future predictions.
+* These can only find and group data together.  
+* Can process larger volumes of data but cannot be trusted.  
+
+### Semi- supervised learning: 
+Can be used for both labled and unlabled data for training. Most useful when we need only few suoervised data training and later data can be easily predicted eg: medical x-ray examination model. 
 
 ### Training steps :
 Training starts with input number to a untrained model and after a wrong output. The model should get error response as penalty. Here, Penalty is output of a cost function which returns expected data. Mathamatically:
