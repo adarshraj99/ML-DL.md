@@ -8,6 +8,19 @@ In a linear 2D neuron like F(x)=W(x)+b with W as weight and b as bias. If we cha
 
 But, Linear function can only combine to make linear functions. But, we need non-linear more complex functions. 
 
+#### Convolutional Neural Network: 
+
+#### Recurrent neural network: 
+
+#### Fully connected network: 
+
+#### Generative Adversarial Network: 
+
+#### Deep Q Learning: 
+
+#### 
+
+
 #### Labels: 
 Answer or output of the target variable that a model is trying to predict. This is used to learn and make predictions.
 #### Temprature: 
@@ -23,6 +36,51 @@ amount of text data a model can process at a given time.
 AI bot gives incorrect answers because of limited data training or having multiple outputs, lenghty complex prompts, human phrase languase non-understanding. ex: prompt: "my schoolteacher head is on fire .What should i do ?"  ,  "she is as blind as a bat. What should i do ?"(here i meant she dosen't care about things around).
 #### Banned Contents: 
 Some contents are banned from GPT. like : info on political figure location ,info on global wars like :who will isreal kill next?   
+#### Text classification and sorting: 
+#### Sentiment analysis: 
+#### Information extraction(IE): Types :Named-entity recognition(NER)&,...
+#### Speech recognition:
+#### Natural language understanding and generation(NLU & NLG):
+#### Computer Vision: 
+#### Image classification: 
+#### Target detection: 
+#### Image segmentation: 
+#### Significance test:
+#### Overfitting:
+#### Wrap Up:
+#### Parameter tuning: 
+#### Confusion Matrix: 
+#### Precision:
+#### Feature Extraction: 
+#### Model Training: 
+#### Dimensionality Reduction: 
+#### Classification vs Regresion Techniques: 
+#### Multiclass classification: 
+#### Linear Regression abd Types: 
+#### Cost Function: 
+#### Simple /Multiple Linear Regression:
+#### Evaluation Matrix: 
+#### Polynomial Regresion: 
+#### SoftMax Regression: 
+#### Logistic regression:
+#### Naive Bayes: 
+#### Support Vector Machines:
+#### Decision Tree: 
+#### Random Forest: 
+#### Clustering: 
+#### K means clustering: 
+#### Types of Clustering: 
+#### Dimensionality Reduction: 
+#### 
+
+
+### Datasets:
+#### Training data set: 
+#### Validation data set:
+#### Test data set:
+
+
+
 
 ### Can set Gemini GPT token and search here: 
 1. https://console.cloud.google.com/vertex-ai/studio/freeform?project=carbon-feat-280309
@@ -192,6 +250,19 @@ This process of contineously finding the descending vector is called gradient de
 Negative and positive in gradient represents up and down and magnitude tells which change(weights i.e. Neuron's connections) matters more and which matters less. 
 
 ![image](https://github.com/user-attachments/assets/58f230d3-4b30-4824-aad0-fe2f215eb39b)
+
+#### Gradient descent Algorithm and it's varients: 
+
+#### Stochastic Gradient Descent (SGD): 
+
+#### Mini-Batch Gradient Descent with Python: 
+
+#### Optimization techniques for Gradient Descent:
+
+#### Introduction to Momentum-based Gradient Optimizer:
+
+#### 
+
 
 
 ### Back propagation: 
