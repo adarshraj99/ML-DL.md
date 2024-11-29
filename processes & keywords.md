@@ -1,6 +1,6 @@
 ## Keywords: 
 #### Neural Networks: 
-Network of neurons. Neurons are a ![Function] to be created if we know some Actual Inputs and Actual Outputs.Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
+Network of neurons. Neurons are a ![#f03c15](Function) to be created if we know some Actual Inputs and Actual Outputs.Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/b11cd770-ac24-47bb-8978-e403256a9e92">
 
