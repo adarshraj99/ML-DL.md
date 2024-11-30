@@ -1,5 +1,5 @@
 ## Keywords: 
-#### Neural Networks: 
+### Neural Networks: 
 Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/b11cd770-ac24-47bb-8978-e403256a9e92">
@@ -8,15 +8,23 @@ In a linear 2D neuron like F(x)=W(x)+b with W as weight and b as bias. If we cha
 
 But, Linear function can only combine to make linear functions. But, we need non-linear more complex functions. 
 
-#### Convolutional Neural Network: 
+### Convolutional Neural Network: 
+A type of Neural Network with 
+- input layers
+- Convolutional Layers
+- Activation Layer
+- Pooling Layer
+Fully connected layers and Output Layers. Convolutional Neural Network is used for **Pattern recognition to match Images or videos**. Each layer of CNN checks for a particular pattern in a part of image(in certain pixels only). 
 
-#### Recurrent neural network: 
+#### Pooling in Convolutional Neural Network: 
 
-#### Fully connected network: 
+### Recurrent neural network: 
 
-#### Generative Adversarial Network: 
+### Fully connected network: 
 
-#### Deep Q Learning: 
+### Generative Adversarial Network: 
+
+### Deep Q Learning: 
 
 #### 
 
