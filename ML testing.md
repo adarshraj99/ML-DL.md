@@ -13,5 +13,10 @@
 <img width="862" alt="image" src="https://github.com/user-attachments/assets/847194be-7d5c-4518-9164-538faa4b1d3d">
 
 - Devs use Training data and testers have validation data.
-- Validation data have 2 problems: Underfitting(Need more data training on seen data) and Overfitting(If a high accuracy model is trained on more related but un-useful data than needed(ex: giving house colour,designs,facing directions. model can't predict price accurately). efficiency goes down, ). 
+- Validation data have 2 problems: Underfitting(Need more data training on seen data) and Overfitting(If a high accuracy model is trained on more related but un-useful data than needed(ex: giving house colour,designs,facing directions. model can't predict price accurately) efficiency goes down, ). 
 - GoodFit: after UnderFitting, when model starts giving better results. Itis said a goodfit.
+- Overfitting: Caused by:
+      - over training from unrelated data (called noise & randomeness).
+      - Can be caused by more model complexity.
+      - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2).
+      - Cross validation not implemented.   
