@@ -21,4 +21,11 @@
       - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2).
       - Cross validation not implemented.   
 - Labeled data vs Unlabeled data: When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
-- 
+
+### Testing UnSUpervised data models(BlackBox functional testing):
+1st step is Training on Training set. Then Training on Validation set.
+Here, We have only un-labeled data. In **training data set**, model learns the needed patterns and structure in data. In **validation data set** ,input data is seprated into clusters of matching data(Training data set) .
+
+### Silhouette Scores(For Whitebox testing): 
+This score is from -1 to 1. This checks the new untrained data score of model. If data is matching matching to the similar data cluster, it is higher score. If score is not matching to the nearby cluster, it is low score and shows data far away from matching cluster.
+Can ask developers ,the methods and utilities where to pass data with some python methods get Silhouette score for different test data. 
