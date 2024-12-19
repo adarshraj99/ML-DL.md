@@ -20,3 +20,5 @@
       - Can be caused by more model complexity.
       - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2).
       - Cross validation not implemented.   
+- Labeled data vs Unlabeled data: When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
+- 
