@@ -63,6 +63,23 @@ Solves a classification problem where the output variable is a categtory like an
 * Confusion Matrix:  
   
 
+### UnSupervised Learning: 
+Here learning happens from UnLabeled or Uncategorized data. Goal is to discover the pattern and categories in the Unlabeled data without explicit guidance. No training is given to the model. So, machines are supposed to find the hidden pattern ,actions or structures to categirize data.  
+
+Types of unsupervised learning: 
+
+#### Clustering: 
+Grouping similar data points together. It is a way to move silimar data points in nearer to the same clusters and away from the other non-similar data clusters. techniques and methods are used to group data points into clusters based on their similarities: 
+
+* Exclusive (partitioning)
+* Agglomerative
+* Overlapping
+* Probabilistic
+
+
+#### Association: 
+
+
 ### Testing UnSUpervised data models(BlackBox functional testing):
 #### Cross validation testing method: 
 1st step is Training on Training set. Then Training on Validation set. Here, can train the dev build with many inout data and see if build is able to segrigate the input data into different clusters and test it by asking questions like: where is my sales highest in which city ,product, questions on type of customers to target marketing. 
