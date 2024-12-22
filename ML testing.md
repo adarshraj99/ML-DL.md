@@ -23,11 +23,45 @@
 - Labeled data vs Unlabeled data: When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
   
 ### Supervised Learning: 
-It is type of machine learning algorithm that lears from labeled data. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
+It is type of machine learning algorithm that learns from labeled data. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
+* Advantages: Lears from previous experiences, solves real time computational problems
+* Disadvantages: Classifying big data can be challenging, Needs lots of computation time and resourses, requires labelled data set, needs training mentor. 
+   
 Types of supervised learning: 
-#### Regression: 
-For contineous data prediction. 
 
+#### Regression supervised learning: 
+For contineous data prediction like house prices, stock prices, customer behaviour. Some common types are: 
+* Linear regression
+* Polynomial Regression
+* Support Vector Machine Regression
+* Decision Tree Regression
+* Random Forest Regression
+
+#### Classification supervised learning: 
+Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. It learns from input data and by using probablity distribution over output groups. Some common types are : 
+* Logistic Regression
+* support vector machines(SVMs)
+* Decision Trees
+* Random Forests
+* Naive Bayes
+* K-Nearest Neighbors (KNN)
+
+
+### Ways to evaluate supervised learning models: 
+
+#### For Regression: 
+* Mean Squared Error (MSE):
+* Root Mean Squared Error (RMSE):
+* Mean Absolute Error (MAE):
+* R-Squared (Coefficient of Determination):
+
+#### For Classification: 
+* Accuracy:
+* Precison :
+* Recall:
+* F1 Score:
+* Confusion Matrix:  
+  
 
 ### Testing UnSUpervised data models(BlackBox functional testing):
 #### Cross validation testing method: 
@@ -40,3 +74,6 @@ This score is from -1 to 1. This checks the new untrained data score of model. I
 Can ask developers ,the methods and utilities where to pass data with some python methods to get the Silhouette score for different test data. 
 
 If the silhoutte scores are high with training data and it suddenly score dips after more training it reached training Overfitting. So, should stop there.  
+
+### Applications of Supervised Learning: 
+* Span filtering, Image classification, Medical DIagnosys, Fraud Detection, 
