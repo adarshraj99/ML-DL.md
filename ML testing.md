@@ -76,8 +76,21 @@ Grouping similar data points together. It is a way to move silimar data points i
 * Overlapping
 * Probabilistic
 
+Types of clustering: 
+* Hierarchial Clustering
+* K-means clustering
+* Principal Component analysis
+* Singular Value Decomposition
+* Independent Component Analysis
+* Gaussian Mixture Models (GMMs)
+* Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 
-#### Association: 
+#### Association : 
+Here, relationship between different data in clusters are found. Such as ,people who buy x item may also buy y item. Common types of association Unsupervised learning include: 
+* Apriori algorithm
+* Eclat Algorithm
+* FP-Growth Algorithm
+
 
 
 ### Testing UnSUpervised data models(BlackBox functional testing):
@@ -90,7 +103,31 @@ Here, We have only un-labeled data. In **training data set**, model learns the n
 This score is from -1 to 1. This checks the new untrained data score of model. If data is matching to the similar data cluster and not matching to the other nearby clusrters, it is higher score. If score is matching to the nearby cluster, it is low score and shows data far away from matching cluster.
 Can ask developers ,the methods and utilities where to pass data with some python methods to get the Silhouette score for different test data. 
 
-If the silhoutte scores are high with training data and it suddenly score dips after more training it reached training Overfitting. So, should stop there.  
+If the silhoutte scores are high with training data and it suddenly score dips after more training it reached training Overfitting. So, should stop there. 
+
+### Calinski-Harabasz score: 
+The Calinski-Harabasz score measures the ratio between the variance between clusters and the variance within clusters. Ranges from 0 to infinity. Higher score is better clustering.
+
+### Adjusted Rand index: 
+measures the similarity between two clusterings. It ranges from -1 to 1. higher scores indicating more similar clusterings.
+
+### F1 score: 
+This is weighted avg. of precision and recall ,which are 2 matrics used in supervised learning to evaluate classification model. F1 score can also be used for Unsupervised learning.  
 
 ### Applications of Supervised Learning: 
-* Span filtering, Image classification, Medical DIagnosys, Fraud Detection, 
+* Span filtering, Image classification, Medical DIagnosys, Fraud Detection,
+### Applications of unsupervised leaerning: 
+* anomaly detection: Can identify unusual(total new) patterns or deviations from normal behaviour in data, enabling fraud detection, system failure etc.
+* Scientific discovery: Can find hidden relation,pattern in data.
+* Recommendation systems : on products, moview, songs etc
+* Customer segmentation: Can cluster/group similar customers together.
+* Image, audio, video segmentation
+
+### Disadvantages of unSupervised Learning: 
+* Difficult to measure accuracy or effectiveness due to lack of labeled data.
+* Lesser accuracy.
+* Noisy data can be difficult to cluster.
+* Number of classes not known
+
+### Disavantages of supervised learning: 
+* Cannot process very large and more complex data from supervised learning.
