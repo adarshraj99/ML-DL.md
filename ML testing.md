@@ -22,7 +22,7 @@
       - Cross validation not implemented.   
 - Labeled data vs Unlabeled data: When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
   
-### Supervised Learning: 
+## Supervised Learning: 
 It is type of machine learning algorithm that learns from labeled data. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
 * Advantages: Lears from previous experiences, solves real time computational problems
 * Disadvantages: Classifying big data can be challenging, Needs lots of computation time and resourses, requires labelled data set, needs training mentor. 
@@ -39,12 +39,15 @@ For contineous data prediction like house prices, stock prices, customer behavio
 
 #### Classification supervised learning: 
 Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. It learns from input data and by using probablity distribution over output groups. Some common types are : 
-* Logistic Regression
-* support vector machines(SVMs)
+* Linear Regression : For Predicting a continuous value like house prices.
+* Logistic regression: Used for Binary classification tasks like : mail Spam Detection ,loan approvals by learning probablity of binary outcome. Used for both 
+* support vector machines(SVMs): effecrive in high dimentional soaces. Used for both regression and classification.  
 * Decision Trees
 * Random Forests
 * Naive Bayes
 * K-Nearest Neighbors (KNN)
+* Neural Networks :Highly capable model capable of handling various types of data and tasks including image and speech recognition by learning complex patterns from data. 
+* Gradient Boosting Machines(GBM): 
 
 
 ### Ways to evaluate supervised learning models: 
@@ -63,7 +66,7 @@ Solves a classification problem where the output variable is a categtory like an
 * Confusion Matrix:  
   
 
-### UnSupervised Learning: 
+## UnSupervised Learning: 
 Here learning happens from UnLabeled or Uncategorized data. Goal is to discover the pattern and categories in the Unlabeled data without explicit guidance. No training is given to the model. So, machines are supposed to find the hidden pattern ,actions or structures to categirize data.  
 
 Types of unsupervised learning: 
@@ -79,9 +82,10 @@ Grouping similar data points together. It is a way to move silimar data points i
 Types of clustering: 
 * Hierarchial Clustering
 * K-means clustering
-* Principal Component analysis
+* Principal Component analysis(PCA)
 * Singular Value Decomposition
-* Independent Component Analysis
+* Independent Component Analysis(ICA)
+* Autoencoders
 * Gaussian Mixture Models (GMMs)
 * Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 
@@ -131,3 +135,17 @@ This is weighted avg. of precision and recall ,which are 2 matrics used in super
 
 ### Disavantages of supervised learning: 
 * Cannot process very large and more complex data from supervised learning.
+
+
+## Hybrid Learning: 
+Combination of Supervised and Unsupervised learning. eg: ChatGPT. 
+
+
+## Reinforcement Learning: 
+Here model learns from it's surrounding ,actions taken by other users, here model's decision depends on the current state not the history. This needs trial and error for learning. 
+
+Types of Reinforcement learning:
+* 
+
+
+
