@@ -39,14 +39,14 @@ For contineous data prediction like house prices, stock prices, customer behavio
 
 #### Classification supervised learning: 
 Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. It learns from input data and by using probablity distribution over output groups. Some common types are : 
-* Linear Regression : For Predicting a continuous value like house prices.
-* Logistic regression: Used for Binary classification tasks like : mail Spam Detection ,loan approvals by learning probablity of binary outcome. Used for both 
+* Linear Regression : For Predicting a continuous value like house prices.  Frameworks used for linear regression: Scikit Learn.
+* Logistic regression: Used for Binary classification tasks like : mail Spam Detection ,loan approvals by learning probablity of binary outcome. Used for both. Framework used : Scikit Learn, 
 * support vector machines(SVMs): effecrive in high dimentional soaces. Used for both regression and classification.  
 * Decision Trees
 * Random Forests
 * Naive Bayes
 * K-Nearest Neighbors (KNN)
-* Neural Networks :Highly capable model capable of handling various types of data and tasks including image and speech recognition by learning complex patterns from data. 
+* Neural Networks :Highly capable model capable of handling various types of data and tasks including image and speech recognition by learning complex patterns from data. Library used : Tensor Flow 
 * Gradient Boosting Machines(GBM): 
 
 
@@ -148,4 +148,22 @@ Types of Reinforcement learning:
 * 
 
 
+Famous Frameworks: 
+* Scikit Learn: Mainly for Linear regresion and Logistic regression.
+* Tensor Flow: Mainly for Neural Networks, Reinforcement Learning.
+* Keras: High Level Neural Network API ,runs on top of TensorFlow for better UI.  
+* PyTorch:For DL models. Used mainly in research.
+* XGBoost:For Gradient Boosting algorithm. 
+* Light BGM: A Gradient Boosting Framework for large scale data. 
+* CatBoost: A Gradient Boosting Framework, specialized in categorial data. 
+* OpenAI Gym: For Developing and comparing Reinfrcement Learning Algorithms. 
+* Stable Baselines:
 
+
+
+## QA Questions  
+1. Which type of learning team is using from supervised, Unsupervised, Hybrid(Supervised+Unsupervised), Reinforcement ?
+2. Which Algorithm Team is using for the type of Learning? As there are multiple for every type of learning mentioned above.
+3. Which Framework(Library) team is using to implement algorithms?
+4. Can  you give me utilities/methods where i can generate overfitting and Underfitting graphs for Linear regression.
+5. Can you give me utilities/methods where i can generate scores for unsupervised learning ? 
