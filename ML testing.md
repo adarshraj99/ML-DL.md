@@ -1,3 +1,6 @@
+<img width="910" alt="image" src="https://github.com/user-attachments/assets/19e9a188-7dc1-4f76-9a4b-4c8ab4b03e26" />
+
+
 ### Types of testing: 
 - responsible ai testing, post production testing, shift left testing, Prompting testing, Memory Testing ,Context testing, 
 
@@ -167,3 +170,6 @@ Famous Frameworks:
 3. Which Framework(Library) team is using to implement algorithms?
 4. Can  you give me utilities/methods where i can generate overfitting and Underfitting graphs for Linear regression.
 5. Can you give me utilities/methods where i can generate scores for unsupervised learning ? 
+
+
+## QA Testing from evaluation phase: 
