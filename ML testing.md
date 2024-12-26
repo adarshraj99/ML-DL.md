@@ -173,3 +173,41 @@ Famous Frameworks:
 
 
 ## QA Testing from evaluation phase: 
+#### Temprature Testing: 
+Temprature testing is used to control the randomness of predictions in the generative models. Lower model makes model more deterministic while higher temprature makes model more unpredictive and creative. In testing we can test models stablity at different tempratures.
+
+
+#### 0 Shot Testing prompts:
+Testing how the model handles requests without prior training on similar examples. Ex: asking medical domain trained model about geography questions.
+
+
+#### Chain of thought testing prompts: 
+Checking how well the model can follow a sequence of logical steps or reasoning. ex: giving a maths questions. Here, model can give single word answer or answer with all the steps to solve the question. There can followup cross questions.  
+Also after refreshing the chat  should delete the old chat memory and after that any new chat should not followup context with the old chat.
+
+#### Test whether model stays relevant to the topics or goes away when in a conversation.
+
+#### Fantasy Claims Definition:
+Testing model doesnot go beyond the needed resonable answer and it does not makes wrong assumptions. ex: asking 'Can human eat rocks' model makes a story and gives benifits of eating rocks.  
+
+#### Accuracy Testing Definition: 
+It is needed in Image identification. Suppose business criteria for model image identification is 90%. Model gives 93% of times correct answer, it is pass. Less then 90% is fail.  
+
+#### Repeatablity testing: 
+ask same question again and again and rephrase the same questions and ask. Model should not deviate from the trained data doubting the previous answer. 
+
+#### Style Transfer Testing: 
+Test whether the tone or the style of output have been changed. ex: ask llm to make formal and other casual mail on same topics. 
+Another style change to test can be: text 'Please let us know if you need more information' at the end of every output.  This can be performed on the dev build platform like: platform.openai.com/playground.
+Another style recognition is to read the intent of chat input. Model should see diffrence between humor, sarcasam.
+Another is, if user is asking wide question model should not self decide and refer to narrow answer like 'suggest top restaurants in bangalore'. Model answer should have all varities of top restaurants including chinese,italian,french,northIndianetc..
+
+#### User Location Based filtered answers: 
+If user is based in Indian Hydrabad and asking about city hotels. Model should not refer to the Pakistan's Hydrabad city.
+
+#### Invarience Testing: 
+The output of model should not change for a question after adding irrelevant points to the same question. Medical ex: By changing Patient's name, DOB it should not change models prediction of patient's heart attacks chances. 
+
+#### BiDirectional Testing: 
+In some models when the input data gets reversed (ex: input data about the 2 different lunds of same person) the modles prediction about lung cancer should not change.
+In some models reversing the input data should change the output. 
