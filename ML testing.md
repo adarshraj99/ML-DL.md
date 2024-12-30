@@ -211,3 +211,12 @@ The output of model should not change for a question after adding irrelevant poi
 #### BiDirectional Testing: 
 In some models when the input data gets reversed (ex: input data about the 2 different lunds of same person) the modles prediction about lung cancer should not change.
 In some models reversing the input data should change the output. 
+
+#### Responsible AI testing:
+The model output must be ethical. 
+
+#### Transperancy testing: 
+To check any business criteia correctly by model. ex: If a loan being distributed. model should predict correctly about the loan taker ability to return loan and other criterias. And, model should give the loan rejection/approval points in detail to share with the customer.
+
+#### Ethical Testing: 
+To test ethical implications of AI 
