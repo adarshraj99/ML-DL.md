@@ -226,3 +226,22 @@ model should not give personal outputs about any public figures even if have tha
 
 #### Model Generalization Testing: 
 If training data is limited to certain group or geolocation. 
+
+#### Societal Impact Testing: 
+Answers for guidance should be ethically answered and with positive socitical impacts. like: drugs gelling guy address, how todo illegal stuffs etc.
+
+#### Integration testing: 
+To check if the model/build is working correctly with the production servers. 
+
+#### Latency Testing: 
+Testing for the model answers in a timeframe. Check in normal and peak load. 
+
+#### Drift Testing: 
+* Data Drift Testing: if real life data is changing w.r.t. time for training model. Model should be updated accordingly. Ex: If a disease symptom changed.
+* Concept Drift Testing: Similar as data drift, here any working method or concept changed.
+* Monitoring: a trained model can degrade over time (maybe bug). So, we need contineous monitoring and testing of the builds.
+
+#### 
+
+
+
