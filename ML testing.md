@@ -220,3 +220,9 @@ To check any business criteia correctly by model. ex: If a loan being distribute
 
 #### Ethical Testing: 
 To test ethical implications of AI 
+
+#### Data Privacy and Security testing: 
+model should not give personal outputs about any public figures even if have that knowledge. In testing people try to confuse model and try to get answer, but model should not answer it.
+
+#### Model Generalization Testing: 
+If training data is limited to certain group or geolocation. 
