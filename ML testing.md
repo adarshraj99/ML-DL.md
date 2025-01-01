@@ -241,12 +241,11 @@ Testing for the model answers in a timeframe. Check in normal and peak load.
 
 * Concept Drift Testing: Similar as data drift, here any working method or concept changed. Here question to model is same but the output must change as concept is changed. like selenium way of invoking webdriver have changed. 
 
-* Monitoring: a trained model can degrade over time (maybe bug). So, we need contineous monitoring and testing of the builds. There are tools which can contineously monitor change in the version or any other model's input training data like **Evidentlyai.com** . These tools generate alarm when some data changes so that we can do the monitoring for Drift Testing.
+* Monitoring: a trained model can degrade over time (maybe bug). So, we need contineous monitoring and testing of the builds. There are tools which can contineously monitor change in the version or any other model's input training data like **Evidentlyai.com**, **Amazon SageMaker Model Monitor** . These tools generate alarm when some data changes so that we can do the monitoring for Drift Testing.
 
 #### Shadow Testing: 
 When developed model is trained on new data. We can test this new version of model with live data questions asked by end customers and check outputs. 
 
 #### A/B Testing: 
-This is same as shadow testing in live model data. Here, data from live users are diverted into new model (updated non-released version).
-
+This is same as shadow testing in live model data. Here, data from live users are diverted into new model (updated non-released version). Can do shadow and A/B testing for Patch releases. 
 
