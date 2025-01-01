@@ -237,11 +237,16 @@ To check if the model/build is working correctly with the production servers.
 Testing for the model answers in a timeframe. Check in normal and peak load. 
 
 #### Drift Testing: 
-* Data Drift Testing: if real life data is changing w.r.t. time for training model. Model should be updated accordingly. Ex: If a disease symptom changed.
-* Concept Drift Testing: Similar as data drift, here any working method or concept changed.
-* Monitoring: a trained model can degrade over time (maybe bug). So, we need contineous monitoring and testing of the builds.
+* Data Drift Testing: if real life data is changing w.r.t. time for training model. Model should be updated accordingly. Here, way of asking questions to model is changed like 'I have this symptoms, do i have Covid?', here input symptoms have cdhanged. Drifts can be of many types : sudden drift, gradual drift, incremental drift, and reoccurring drift(happens after some time).
 
-#### 
+* Concept Drift Testing: Similar as data drift, here any working method or concept changed. Here question to model is same but the output must change as concept is changed. like selenium way of invoking webdriver have changed. 
 
+* Monitoring: a trained model can degrade over time (maybe bug). So, we need contineous monitoring and testing of the builds. There are tools which can contineously monitor change in the version or any other model's input training data like **Evidentlyai.com** . These tools generate alarm when some data changes so that we can do the monitoring for Drift Testing.
+
+#### Shadow Testing: 
+When developed model is trained on new data. We can test this new version of model with live data questions asked by end customers and check outputs. 
+
+#### A/B Testing: 
+This is same as shadow testing in live model data. Here, data from live users are diverted into new model (updated non-released version).
 
 
