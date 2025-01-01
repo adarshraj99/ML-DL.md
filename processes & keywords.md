@@ -1,4 +1,4 @@
-## Keywords: 
+# Keywords: 
 ### Neural Networks: 
 Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
 
@@ -91,6 +91,10 @@ Some contents are banned from GPT. like : info on political figure location ,inf
 ### Can set Gemini GPT token and search here: 
 1. https://console.cloud.google.com/vertex-ai/studio/freeform?project=carbon-feat-280309
 
+
+
+
+# Processes:
 
 
 ## Neurons and how it learns: 
