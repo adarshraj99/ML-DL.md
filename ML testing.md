@@ -33,7 +33,7 @@ It is type of machine learning algorithm that learns from labeled data. Here, ML
 Types of supervised learning: 
 
 #### Regression supervised learning: 
-For contineous data prediction like house prices, stock prices, customer behaviour. Some common types are: 
+For contineous data prediction like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
 * Linear regression
 * Polynomial Regression
 * Support Vector Machine Regression
@@ -41,7 +41,7 @@ For contineous data prediction like house prices, stock prices, customer behavio
 * Random Forest Regression
 
 #### Classification supervised learning: 
-Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. It learns from input data and by using probablity distribution over output groups. Some common types are : 
+Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. Here, the output is not infinite possiblities but only a set of outputs. It learns from input data and by using probablity distribution over output groups. Some common types are : 
 * Linear Regression : For Predicting a continuous value like house prices.  Frameworks used for linear regression: Scikit Learn.
 * Logistic regression: Used for Binary classification tasks like : mail Spam Detection ,loan approvals by learning probablity of binary outcome. Used for both. Framework used : Scikit Learn, 
 * support vector machines(SVMs): effecrive in high dimentional soaces. Used for both regression and classification.  
