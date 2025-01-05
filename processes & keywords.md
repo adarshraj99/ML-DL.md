@@ -86,7 +86,7 @@ Some contents are banned from GPT. like : info on political figure location ,inf
 #### Test data set:
 
 ## Denotions in ML algorithms: 
-* #### Superscript
+* #### Superstrip:
   <img width="264" alt="image" src="https://github.com/user-attachments/assets/0145e054-40ed-4f22-9d58-c107601902fb" />
 
   It looks like power with circle bracket. It means number of the training example from a list of training examples and their outputs. ex: 1st or 2nd or .....nth size in feet^2 example.
@@ -99,7 +99,26 @@ Some contents are banned from GPT. like : info on political figure location ,inf
 * #### Function:
   It is calculated by input learning data in ML model.  
   <img width="110" alt="image" src="https://github.com/user-attachments/assets/7b17dd96-5a5e-41f3-9cca-027042e53a0f" />
+
+  Here, w&b is called parameters or Weights or co-efficients.
+  if w = 0 ,y = b.
+  w is slope and b is point on y-axis.
+
+<img width="237" alt="image" src="https://github.com/user-attachments/assets/a9c8f567-bf2e-41a5-a7c7-7f5f38401531" />
+
+* #### Error:
+  It is diffrence between the ML model prediction and the value of y for given x input data. 
+  error = ŷ - y
   
+* #### Cost Function:
+  When square of all errors values are summed from 1 to m  x value and this sum is divided by the number of occurances m, it makes Cost function. Then it is divided by 2 by convention to be useful in later calculations.  
+    
+  <img width="382" alt="image" src="https://github.com/user-attachments/assets/b9a178b1-a1e3-45c5-8979-ed1445b7a6b6" />
+
+  Also called Squared error cost function reprensed by J(w,b). which can also be written as :
+  <img width="296" alt="image" src="https://github.com/user-attachments/assets/557ef641-5cf2-42d1-bc2f-165a27175139" />
+
+
 
   
 
