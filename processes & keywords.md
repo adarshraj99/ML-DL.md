@@ -93,7 +93,14 @@ Some contents are banned from GPT. like : info on political figure location ,inf
   
   <img width="269" alt="image" src="https://github.com/user-attachments/assets/c8e8911e-3b9c-4e0d-ac35-61c766446a09" />
  
+* #### Hypothesis, hat:
+  ML model's function is called hypothesis. This function takes input data x and predicts the output called Y-Hat(ŷ). This prediction ŷ is the estimated value of data in y-axis for value in x-axis with a found out function f.  
+
+* #### Function:
+  It is calculated by input learning data in ML model.  
+  <img width="110" alt="image" src="https://github.com/user-attachments/assets/7b17dd96-5a5e-41f3-9cca-027042e53a0f" />
   
+
   
 
 
