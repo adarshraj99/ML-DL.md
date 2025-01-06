@@ -118,6 +118,9 @@ Some contents are banned from GPT. like : info on political figure location ,inf
   Also called Squared error cost function reprensed by J(w,b). which can also be written as :
   <img width="296" alt="image" src="https://github.com/user-attachments/assets/557ef641-5cf2-42d1-bc2f-165a27175139" />
 
+Parameters w and b are calculated to reduce cost function J(w,b).
+
+
 
 
   
