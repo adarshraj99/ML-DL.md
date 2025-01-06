@@ -120,6 +120,11 @@ Some contents are banned from GPT. like : info on political figure location ,inf
 
 Parameters w and b are calculated to reduce cost function J(w,b).
 
+<img width="326" alt="image" src="https://github.com/user-attachments/assets/e870009c-dbea-464e-87bf-0e5215df01ba" />
+
+
+
+
 
 
 
