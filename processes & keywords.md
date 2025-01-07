@@ -122,6 +122,10 @@ Parameters w and b are calculated to reduce cost function J(w,b).
 
 <img width="326" alt="image" src="https://github.com/user-attachments/assets/e870009c-dbea-464e-87bf-0e5215df01ba" />
 
+Here, error is (model's prediction) - (actual value) . i.e.:
+<img width="142" alt="image" src="https://github.com/user-attachments/assets/31c012d6-e39a-422b-be5b-a7a406ec27ec" />
+
+
 
 
 
