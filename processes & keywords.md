@@ -63,7 +63,6 @@ Some contents are banned from GPT. like : info on political figure location ,inf
 #### Classification vs Regresion Techniques: 
 #### Multiclass classification: 
 #### Linear Regression abd Types: 
-#### Cost Function: 
 #### Simple /Multiple Linear Regression:
 #### Evaluation Matrix: 
 #### Polynomial Regresion: 
@@ -261,7 +260,8 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 * Can find hidden pattern in data which un-supervised learning cannot find.
 * $\hat{y}$  is symbol for prediction on y-axis for input x to the model.
 * y is the actual value on y-axis for the training data x. and  $\hat{y}$ is prediction value after model training.
-* `f{w,b}(X) = wX + b`  
+* If curve is in straight line(linear regression). `f{w,b}(X) = wX + b` is the function (hypothesis) here. Here, w and b are adjusted to find the correct function which can make predictions. w and b are called parameters or co-efficients or weights. 
+* In Linear regression, 1 input variable is provided for the prediction outcome. 
   
 
 
