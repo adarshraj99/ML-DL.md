@@ -257,8 +257,12 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 * More accurate than un-supervised learning. Needs human intervention.
 * Supervised learning models are able to predict future.
 * More commenly used.
-* These can be used with non-labled data.
-* Can find hidden pattern in data which un-supervised learning cannot find.  
+* These can be used with non-labled data as input.
+* Can find hidden pattern in data which un-supervised learning cannot find.
+* $\hat{y}$  
+  
+
+
 
 ### Unsupervised Learning: 
 * A type of machine learning where the model is trained on unlabeled data to find hidden patterns. 
