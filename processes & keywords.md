@@ -259,7 +259,9 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 * More commenly used.
 * These can be used with non-labled data as input.
 * Can find hidden pattern in data which un-supervised learning cannot find.
-* $\hat{y}$  
+* $\hat{y}$  is symbol for prediction on y-axis for input x to the model.
+* y is the actual value on y-axis for the training data x. and  $\hat{y}$ is prediction value after model training.
+* \( f_{w,b}(X) = wX + b \)
   
 
 
