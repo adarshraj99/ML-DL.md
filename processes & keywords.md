@@ -265,6 +265,8 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 * In Linear regression, 1 input variable is provided for the prediction outcome. 
 * b is the height on y-axis and w gives angle to x-axis.
   <img width="617" alt="image" src="https://github.com/user-attachments/assets/ef0320ad-9793-4712-8d61-22b605de83fa" />
+
+  
 <img width="33" alt="image" src="https://github.com/user-attachments/assets/22086af5-da05-4131-b39a-619c558be54b" /> <img width="176" alt="image" src="https://github.com/user-attachments/assets/45c373ad-8ce2-4066-9954-1c244b25fee5" />
 
   
