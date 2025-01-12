@@ -269,7 +269,11 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
   
 <img width="53" alt="image" src="https://github.com/user-attachments/assets/d6bb8c17-4d5e-40f9-b95f-bbcc74beab16" /> <img width="176" alt="image" src="https://github.com/user-attachments/assets/45c373ad-8ce2-4066-9954-1c244b25fee5" />
 
-  
+#### Cost Function: 
+The $\hat{y}$ is checked with y. i.e. diffrence between actual and predicted foundout to get error ($\hat{y}$  -  y).  This then squared and added upto number of training examples. This gives total error. So,it is divided by m to get avg error. This is divided by 2 for furthur usefullness in later calculations. 
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/55b35319-77c1-4af6-ae0a-e4e9eade6177" />
+
+
 
 
 
