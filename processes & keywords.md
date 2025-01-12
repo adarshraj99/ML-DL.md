@@ -274,6 +274,7 @@ The $\hat{y}$ is checked with y. i.e. diffrence between actual and predicted fou
 <img width="379" alt="image" src="https://github.com/user-attachments/assets/55b35319-77c1-4af6-ae0a-e4e9eade6177" />
 
 For diffrent values of input x and w ,we get different values of $\hat{y}$ (assuming b=0). Calculate j(w) vs w graph. Then, find the w to get minimum j(w) possible. 
+
 <img width="602" alt="image" src="https://github.com/user-attachments/assets/fb1ce8c7-c563-4455-bde6-cd0f2695f419" />
 
 In more practical term we need to find values of w and b(where b!=0) to get the min j(w) possible. 
