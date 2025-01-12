@@ -260,8 +260,13 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
 * Can find hidden pattern in data which un-supervised learning cannot find.
 * $\hat{y}$  is symbol for prediction on y-axis for input x to the model.
 * y is the actual value on y-axis for the training data x. and  $\hat{y}$ is prediction value after model training.
-* If curve is in straight line(linear regression). `f{w,b}(X) = wX + b` is the function (hypothesis) here. Here, w and b are adjusted to find the correct function which can make predictions. w and b are called parameters or co-efficients or weights. 
+#### Linear regression:   
+* If curve is in straight line(linear regression) `f{w,b}(X) = wX + b` is the function (hypothesis) here. Here, w and b are adjusted to find the correct function which can make predictions. w and b are called parameters or co-efficients or weights. 
 * In Linear regression, 1 input variable is provided for the prediction outcome. 
+* b is the height on y-axis and w gives angle to x-axis.
+  <img width="617" alt="image" src="https://github.com/user-attachments/assets/ef0320ad-9793-4712-8d61-22b605de83fa" />
+<img width="33" alt="image" src="https://github.com/user-attachments/assets/22086af5-da05-4131-b39a-619c558be54b" /> <img width="176" alt="image" src="https://github.com/user-attachments/assets/45c373ad-8ce2-4066-9954-1c244b25fee5" />
+
   
 
 
