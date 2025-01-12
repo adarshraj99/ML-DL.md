@@ -267,7 +267,7 @@ Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is
   <img width="617" alt="image" src="https://github.com/user-attachments/assets/ef0320ad-9793-4712-8d61-22b605de83fa" />
 
   
-<img width="33" alt="image" src="https://github.com/user-attachments/assets/22086af5-da05-4131-b39a-619c558be54b" /> <img width="176" alt="image" src="https://github.com/user-attachments/assets/45c373ad-8ce2-4066-9954-1c244b25fee5" />
+<img width="53" alt="image" src="https://github.com/user-attachments/assets/d6bb8c17-4d5e-40f9-b95f-bbcc74beab16" /> <img width="176" alt="image" src="https://github.com/user-attachments/assets/45c373ad-8ce2-4066-9954-1c244b25fee5" />
 
   
 
