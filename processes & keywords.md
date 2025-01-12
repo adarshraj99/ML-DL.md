@@ -1,4 +1,4 @@
-# Keywords: 
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/82847f60-6e68-46fa-90d7-85efa205b024" /><img width="950" alt="image" src="https://github.com/user-attachments/assets/b2f7881e-3bc2-49b2-ab85-51c8bee6fed2" /># Keywords: 
 ### Neural Networks: 
 Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
 
@@ -286,7 +286,13 @@ It can be used to reduce any function not just linear regression. For Linear reg
 
 <img width="380" alt="image" src="https://github.com/user-attachments/assets/9b42f62d-7c10-4ab9-abaa-7b628886d254" />
 
+But, for NL training normal graphs look like: 
 
+<img width="824" alt="image" src="https://github.com/user-attachments/assets/5106a039-08ed-41b5-b0ff-72fcca001e0c" />
+
+Going downhill from any one hilltop can have multiple ways to multiple local minimum.
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/a0f5ccd8-ca45-424b-82ff-4b62baeba127" />
 
 
 
