@@ -280,7 +280,16 @@ For diffrent values of input x and w ,we get different values of $\hat{y}$ (assu
 In more practical term we need to find values of w and b(where b!=0) to get the min j(w) possible. 
 
 #### Gradient descent: 
-It can be used to reduce any function not just linear regression. For Linear regression with sqared error cost function the     graph is always a bow or a hammock shape graph.
+It can be used to reduce any function not just linear regression. For Linear regression with sqared error cost function the 3D graph of j(w,b),w,b is always a bow or a hammock shape graph like: 
+
+<img width="497" alt="image" src="https://github.com/user-attachments/assets/fc896a31-11bf-4f32-9f0a-56d28e1125a6" />
+
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/9b42f62d-7c10-4ab9-abaa-7b628886d254" />
+
+
+
+
+
 
 
 
