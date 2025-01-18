@@ -295,6 +295,13 @@ Going downhill from any one hilltop can have multiple ways to multiple local min
 
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/a0f5ccd8-ca45-424b-82ff-4b62baeba127" />
 
+#### Gradient Descent algorithm:
+
+<img width="307" alt="image" src="https://github.com/user-attachments/assets/7c0dd2ec-cffc-473e-a833-89dcaf626d8e" />
+
+Here, alpha is called learning rate. It is between 0 & 1. 
+
+
 
 
 
