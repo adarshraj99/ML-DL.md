@@ -302,12 +302,24 @@ Going downhill from any one hilltop can have multiple ways to multiple local min
 Here, 
 alpha is called learning rate. It is between 0 & 1. 
 δ/δw relates to direction and magnitude of the steps to take for going downhill.
+If alpha(learning rate) is too small calculation of 'w' will take very tiny tiny steps to go downhill and will take more time. 
+If alpha(learning rate) is too large, the calculation of 'w' can surpass the local minimum and go beyond the needed value. Never finding the local minimum.
+In calculating local minimum, the value of cost function J(w) will be largest for the 1st value if the slope is decreasing. Later the cost function value will keep minimising to smaller and even smaller until it reaches the local minimum. And , it works with any cost function J() ,not just mean squared error cost function for linear regression. 
+
+<img width="436" alt="image" src="https://github.com/user-attachments/assets/97b76243-f6e3-403f-8f41-48aae245fa49" />
+
+#### Linear regression algorithm: 
+
+
+
+
 
 b is found with: 
 
 <img width="296" alt="image" src="https://github.com/user-attachments/assets/46132fb9-be23-4812-b2e5-602e979b6e9b" />
 
 We need to **keep changing the w and b simultaneously** to find min of w&b for finding the local minimum. Here, the value of 'w' in formula for 'b'is not updated with equation for 'w' rather it is previous 'w'. So, calculation of w&b happens simultaneously here.  
+
 
 
 
