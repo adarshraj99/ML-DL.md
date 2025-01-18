@@ -307,7 +307,7 @@ b is found with:
 
 <img width="296" alt="image" src="https://github.com/user-attachments/assets/46132fb9-be23-4812-b2e5-602e979b6e9b" />
 
-
+We need to **keep changing the w and b simultaneously** to find min of w&b for finding the local minimum. 
 
 
 
