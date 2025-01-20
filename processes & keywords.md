@@ -115,7 +115,7 @@ Some contents are banned from GPT. like : info on political figure location ,inf
     
   <img width="382" alt="image" src="https://github.com/user-attachments/assets/b9a178b1-a1e3-45c5-8979-ed1445b7a6b6" />
 
-  Also called Squared error cost function reprensed by J(w,b). which can also be written as :
+  Also called Squared error cost function represented by J(w,b). which can also be written as :
   <img width="296" alt="image" src="https://github.com/user-attachments/assets/557ef641-5cf2-42d1-bc2f-165a27175139" />
 
 Parameters w and b are calculated to reduce cost function J(w,b).
@@ -124,6 +124,8 @@ Parameters w and b are calculated to reduce cost function J(w,b).
 
 Here, error is (model's prediction) - (actual value) . i.e.:
 <img width="142" alt="image" src="https://github.com/user-attachments/assets/31c012d6-e39a-422b-be5b-a7a406ec27ec" />
+
+In Squared error cost function, the cost function does not have multiple local minimum ,it have only 1 local min anyttime. So, squared error cost function have only global min ,not local min.
 
 
 
@@ -295,6 +297,8 @@ Going downhill from any one hilltop can have multiple ways to multiple local min
 
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/a0f5ccd8-ca45-424b-82ff-4b62baeba127" />
 
+When Gradient Descent is calculated from i=1 to i=m(a set or batch) .It is called a Batch gradient descent. 
+
 #### Gradient Descent algorithm:
 
 <img width="307" alt="image" src="https://github.com/user-attachments/assets/7c0dd2ec-cffc-473e-a833-89dcaf626d8e" />
@@ -314,11 +318,13 @@ In calculating local minimum, the value of cost function J(w) will be largest fo
 
 
 
+
 b is found with: 
 
 <img width="296" alt="image" src="https://github.com/user-attachments/assets/46132fb9-be23-4812-b2e5-602e979b6e9b" />
 
-We need to **keep changing the w and b simultaneously** to find min of w&b for finding the local minimum. Here, the value of 'w' in formula for 'b'is not updated with equation for 'w' rather it is previous 'w'. So, calculation of w&b happens simultaneously here.  
+We need to **keep changing the w and b simultaneously** to find min of w&b for finding the local minimum. Here, the value of 'w' in formula for 'b'is not updated with equation for 'w' rather it is previous 'w'. So, calculation of w&b happens simultaneously here. Like this we get to a point called **Convergence** after this model's prediction stops improving and the error becomes almost constant.
+
 
 
 
