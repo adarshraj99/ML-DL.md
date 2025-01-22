@@ -128,11 +128,15 @@ Here, error is (model's prediction) - (actual value) . i.e.:
 In Squared error cost function, the cost function does not have multiple local minimum ,it have only 1 local min anyttime. So, squared error cost function have only global min ,not local min.
 
 
-#### Applying cost function to get the house prediction output with multiple parameters like: Number of bedrooms, size, floors, age.
+#### Multiple Linear Regression: 
+Applying cost function to get the house prediction output with multiple parameters like: Number of bedrooms, size, floors, age.
 
 <img width="895" alt="image" src="https://github.com/user-attachments/assets/2255d95d-6c59-4a93-b4ef-8bf249fb3e70" />
 
-here, all 'w' are vector \(\overrightarrow{W}\)
+here, all 'w' and 'b' are vectors and symbol for itis w or b with arrow above it. 
+
+#### Vectorization: 
+This is used for writing faster executable code. The Multiple Linear regression can be calculated with  
 
 
 
