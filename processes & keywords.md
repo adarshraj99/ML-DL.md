@@ -154,7 +154,12 @@ But, if n very big number, need vectorization with python dot() .adv is, It is s
 Vectorization can be used in Gradient Descent for parallel processing.  
 
 
-#### Multiple linear regression with vectorization: 
+#### Multiple linear regression with vectorization for gradient descent: 
+
+In vector notation :
+
+model function <img width="371" alt="image" src="https://github.com/user-attachments/assets/0bf7cd73-9092-44a8-b8ea-9b8f706656a0" />  is written as <img width="154" alt="image" src="https://github.com/user-attachments/assets/8c80eb1a-fb9d-4c41-bae4-eed2e0a5642a" />
+
 
 
 
