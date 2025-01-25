@@ -135,6 +135,7 @@ Applying cost function to get the house prediction output with multiple paramete
 
 here, all 'w' and 'b' are vectors and symbol for itis w or b with arrow above it. 
 
+
 #### Vectorization: 
 This is used for writing faster executable code for model's prediction. 
 
@@ -150,6 +151,10 @@ But, if n very big number, need vectorization with python dot() .adv is, It is s
 
 <img width="206" alt="image" src="https://github.com/user-attachments/assets/28a15f88-745d-46c0-a3bd-a36f46ee975f" />
 
+Vectorization can be used in Gradient Descent for parallel processing.  
+
+
+#### Multiple linear regression with vectorization: 
 
 
 
