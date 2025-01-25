@@ -158,7 +158,63 @@ Vectorization can be used in Gradient Descent for parallel processing.
 
 In vector notation :
 
-model function <img width="371" alt="image" src="https://github.com/user-attachments/assets/0bf7cd73-9092-44a8-b8ea-9b8f706656a0" />    is written as       <img width="154" alt="image" src="https://github.com/user-attachments/assets/8c80eb1a-fb9d-4c41-bae4-eed2e0a5642a" />
+model function <img width="371" alt="image" src="https://github.com/user-attachments/assets/0bf7cd73-9092-44a8-b8ea-9b8f706656a0" />    is written as    <img width="154" alt="image" src="https://github.com/user-attachments/assets/8c80eb1a-fb9d-4c41-bae4-eed2e0a5642a" />
+
+Cost function <img width="279" alt="image" src="https://github.com/user-attachments/assets/0eb49a31-aae5-41c4-aef4-1d0111d65ae8" />   is written as  <img width="91" alt="image" src="https://github.com/user-attachments/assets/9a7c44d0-0bb7-4e42-a074-f1a1691ccbf1" />
+
+In Gradient descent  <img width="371" alt="image" src="https://github.com/user-attachments/assets/ae45226a-9df6-4361-99fa-5e93dd659c9a" />  can be written as   <img width="221" alt="image" src="https://github.com/user-attachments/assets/b87945ee-c3cc-430e-a102-10c06b9164aa" />
+
+For multiple linear regression: 
+
+W is : 
+
+<img width="276" alt="image" src="https://github.com/user-attachments/assets/76a267d7-0a94-45a7-bf90-fc4b8bc08996" />
+
+multiple w is calculated : 
+
+<img width="327" alt="image" src="https://github.com/user-attachments/assets/487f7eae-ac40-43f6-94db-ea7465791299" />
+
+b is: 
+
+<img width="326" alt="image" src="https://github.com/user-attachments/assets/7aa6659d-3acc-46a4-acfe-ab3250200a48" />
+
+and , simultaneously update wj (for j=1 ,......,n) and b
+
+
+### Normal Equation: 
+
+This is an alternative way to get w and b. This method works only for linear regression and does not need iterations to get w and b values, it can do in 1go with an advanced linear algebra library.  
+
+#### Gradient Descent Feature scaling : (with feature size vs parameter size):
+This helps achiving global min in gradient descent much faster. ex:  In Guessing house price, suppose x1 and x2 are size and bedrooms. so, size takes wide range of numbers and bed rooms 
+
+<img width="823" alt="image" src="https://github.com/user-attachments/assets/9cab9159-ecef-41f2-91ee-926b3ce56639" />
+
+Here, For for bigger value of x ,w is smaller. If x1 and x2 are 2000k and 5 then w1 and w2 are 0.1 and 50 respectively. This calculates house price nearby the actual house.
+
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/55bfdd01-eeb1-4160-9ada-08f31519bd28" />
+
+graph and contour plots of these x and w values: 
+
+If x1 is very big and x2 is very small & w1 is very small and w2 is very big. 
+
+<img width="853" alt="image" src="https://github.com/user-attachments/assets/8bdd5572-ce42-489a-bc5f-fadcfd9cf567" />
+
+here, if w1 is very small, it gets multiplied with x1 and becomes a very large number and big change to the house price estimate. 
+however, w2 is very big, It gets multiplied with x2 and becomes a very small number and does not effect house price much. 
+With this training data is used it will take much time to find global min. in gradiend descent (bouncing back and forth) before finally finding global min. 
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/a1e1666a-e4f1-49af-801f-548eaf21a334" />
+
+Having different features with various range of values makes it difficult to get the global min from gradient descent. 
+So, should making smaller numbers bigger or bigger numbers smaller (**Ultimately need to put all features in same scale for getting global min faster**) to get a clear scattered plot and contour plot. 
+
+<img width="806" alt="image" src="https://github.com/user-attachments/assets/3e2bec0d-2b12-437c-bc47-fa2d7f3a3923" />
+
+To achieve it : 
+
+
+
 
 
 
