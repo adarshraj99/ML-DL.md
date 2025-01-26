@@ -273,7 +273,16 @@ For predictive analysis. Used more than linear regression. Outputs between 0 and
 
 <img width="575" alt="image" src="https://github.com/user-attachments/assets/6b4eefc2-9896-4efc-81c9-6b88ad436a3e" />
 
+##### Decision Boundaries: 
+These are the boundaries outside and inside which True(1) and False(0) outputs exists respectively. Here, f(x)=g(z) .
 
+For non cancer tumor vs cancer tumor ex: Consider w1 and w2 as 1 and b as -3.
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/8526c487-3936-4a59-a639-389ce063fec0" />
+
+These decision boyndaries can be linear ,circular, oval, any shape curves(non linear) with more powers of x.
+
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/c234c478-3551-4beb-8001-2a66be060cea" />
+<img width="570" alt="image" src="https://github.com/user-attachments/assets/93b55ef5-088e-4fa0-96d7-8a8ff7e16bf9" />
 
 
 
