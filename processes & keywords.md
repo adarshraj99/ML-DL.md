@@ -269,7 +269,10 @@ or, we can also use sq. root instead of sq.
 This depends on the model ,which one to use. Based on that we decide which feature suits better.
 
 #### Logistic regression: 
-For predictive analysis. Used more than linear regression. Outputs between 0 and 1 with formula <img width="132" alt="image" src="https://github.com/user-attachments/assets/e39b24b4-ca38-4925-a169-c8399d6719ea" />
+For predictive analysis. Used more than linear regression. Outputs between 0 and 1 with formula <img width="132" alt="image" src="https://github.com/user-attachments/assets/e39b24b4-ca38-4925-a169-c8399d6719ea" />   called **sigmoid function**.
+
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/6b4eefc2-9896-4efc-81c9-6b88ad436a3e" />
+
 
 
 
