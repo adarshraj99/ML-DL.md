@@ -1,4 +1,4 @@
-# Keywords: 
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/81c73387-521d-41af-ad06-1a0784611ebc" /># Keywords: 
 
 ### Neural Networks: 
 Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
@@ -181,7 +181,7 @@ b is:
 and , simultaneously update wj (for j=1 ,......,n) and b
 
 
-### Normal Equation: 
+#### Normal Equation: 
 
 This is an alternative way to get w and b. This method works only for linear regression and does not need iterations to get w and b values, it can do in 1go with an advanced linear algebra library.  
 
@@ -235,9 +235,46 @@ Here, To calculate x1 and x2. x1-(avg. of x1)/(max-min) and the values we will g
 It is found from standard deviation of each feature and mean from the gallatian distribution or mean curve. 
 
 
-- #### Checking Gradient Descent Conversion:
+#### Checking Gradient Descent Conversion:
 
-  While l
+  Make a graph j(vector w, b) vs iterations. Here, j() should decrease after every iteration. If cost function J() is not decreasing then alpha(Learning rate) must be coosen poorly (too large) or potential code bug. After some iterations the curve gets flat and it is not decreasing .Ths is called **convergense**. 
+
+#### Choosing alpha correctly:
+
+If alpha coosen is too small, it will run very slowly and go up and down or can keep increasing.  If it is too large ,it may not converge . 
+
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/27211fd8-0dec-41f2-8cd9-36ac98dc6936" />
+
+If not getting global min learning rate in gradient descent. One may set alpha very very small and then if it is not working. Then there must be a bug in code. 
+Very small alpha also then steps to find min will increase taking more time. 
+
+So, should try with a very small alpha and then try with a bigger alpha to find where alpha is not decreasing and keep choosing smaller than the bigger value to get correct alpha. 
+
+#### Feature Engineering: 
+
+Feature Engineering is about creating new feature to solve problem from pre-existing knowledge or intution. ex: if house plot have length and width, we can add 1 extra feature area if this feature is effecting price. 
+
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/fa5a95f8-93ce-402a-b4e2-e76088489f4b" />
+
+#### Polynomial Regression (feature engineering): 
+
+Adding to feature engineering we can add power to the f() function to get better house pricings. ex: adding house vsize in meter cube. 
+
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/817a1812-2650-4b24-bc1e-763b2e65c8c7" />
+
+or, we can also use sq. root instead of sq. 
+
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/0387a0f6-fa5b-4e81-b823-4867992910fa" />
+
+This depends on the model ,which one to use. Based on that we decide which feature suits better.
+
+#### Logistic regression: 
+For predictive analysis. Used more than linear regression. Outputs between 0 and 1 with formula <img width="132" alt="image" src="https://github.com/user-attachments/assets/e39b24b4-ca38-4925-a169-c8399d6719ea" />
+
+
+
+
+
 
 
 
