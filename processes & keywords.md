@@ -211,15 +211,33 @@ So, should making smaller numbers bigger or bigger numbers smaller (**Ultimately
 
 <img width="806" alt="image" src="https://github.com/user-attachments/assets/3e2bec0d-2b12-437c-bc47-fa2d7f3a3923" />
 
-To achieve it : 
+To achieve it ,we need Feature Scaling : 
+
+#### Feature Scaling:
+It should be performed if features are not around -1 to +1. Rahter they are very small and very big numbers or they are not around 0 in 2D axis plane.
+
+- ##### Dividing by max:
+   
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/8d5aaa0c-0f8a-4950-8e25-8f09fbbdfc5d" />
+
+As value of x1 is very big. It can be divided with it's max value and that can be plotted on graph in x1 from 0 to 1 range. 
+
+- ##### Mean Normalization:
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/73874f74-7db2-4ac0-9d02-de7868308286" />
+
+Here, To calculate x1 and x2. x1-(avg. of x1)/(max-min) and the values we will get between -1 and +1 around 0 in graph. 
+
+- ##### Z Score normalization:
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/54fe4d62-7c9e-43a7-ad82-893db34286b2" />
+
+It is found from standard deviation of each feature and mean from the gallatian distribution or mean curve. 
 
 
+- #### Checking Gradient Descent Conversion:
 
-
-
-
-
-
+  While l
 
 
 
