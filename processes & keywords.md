@@ -284,6 +284,17 @@ These decision boyndaries can be linear ,circular, oval, any shape curves(non li
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/c234c478-3551-4beb-8001-2a66be060cea" />
 <img width="570" alt="image" src="https://github.com/user-attachments/assets/93b55ef5-088e-4fa0-96d7-8a8ff7e16bf9" />
 
+##### Cost Function fror Logistic regression: 
+With cost function calculation we can choose better parameters. 
+
+In tumor Training example ,where there are 1,...,m training examples and 1,....,n training features(tumor size, patient's age, etc). The output/Target can be 0 and 1 only. 
+The Logistic regression is defined by equation: <img width="182" alt="image" src="https://github.com/user-attachments/assets/028ca048-64e9-48d2-bbcb-eb4aa1338eb6" />
+
+In Linear regression the Loss function curve is convex and given by f(x)=w.x+b  and J(vector w,b) is <img width="302" alt="image" src="https://github.com/user-attachments/assets/ef0d25d8-aef0-415a-af33-76784d2ad12f" />   The inside summation part is written as L(f(x,y))  <img width="334" alt="image" src="https://github.com/user-attachments/assets/a9b089e8-5395-4d8f-8e59-09e3b4365dee" />  and the loss function curve is not convex. 
+
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/8024adfc-dd4d-46f3-b711-56065cf86ab3" />
+
+
 
 
 
