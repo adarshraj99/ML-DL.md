@@ -294,6 +294,11 @@ In Linear regression the Loss function curve is convex and given by f(x)=w.x+b  
 
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/8024adfc-dd4d-46f3-b711-56065cf86ab3" />
 
+Logistic loss function when y=0 and when y=1:
+
+<img width="493" alt="image" src="https://github.com/user-attachments/assets/8a3df1a0-f4bc-43ed-bb27-bd5dee96087e" />
+
+f(x) output is always between 0 and 1. 
 
 
 
