@@ -284,7 +284,7 @@ These decision boyndaries can be linear ,circular, oval, any shape curves(non li
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/c234c478-3551-4beb-8001-2a66be060cea" />
 <img width="570" alt="image" src="https://github.com/user-attachments/assets/93b55ef5-088e-4fa0-96d7-8a8ff7e16bf9" />
 
-##### Cost Function fror Logistic regression: 
+##### Cost Function for Logistic regression: 
 With cost function calculation we can choose better parameters. 
 
 In tumor Training example ,where there are 1,...,m training examples and 1,....,n training features(tumor size, patient's age, etc). The output/Target can be 0 and 1 only. 
@@ -299,6 +299,11 @@ Logistic loss function when y=0 and when y=1:
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/8a3df1a0-f4bc-43ed-bb27-bd5dee96087e" />
 
 f(x) output is always between 0 and 1. 
+* Squared error cost function is not suitable for logistic regression.
+
+##### Simplified loss function for logistic regression: 
+If y is only 1 or 0. Then the simplified loss function is: 
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/ca015d87-9332-4ee4-b077-104d9ea61fd2" />
 
 
 
