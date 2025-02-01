@@ -316,6 +316,7 @@ To calculate the gradient Dedcent, we need to find the multiple new w&b paramete
 here `Wj` is the number of features. <img width="26" alt="image" src="https://github.com/user-attachments/assets/6d3c6c95-d7b3-4d34-8ebb-16cdb41fcf41" /> is the Jth feature of the of the training example i. 
 
 <img width="615" alt="image" src="https://github.com/user-attachments/assets/24a77989-6a22-47a9-82c6-3c73f9e19753" />
+
 Here, need to simultaneously calculate the right hand side values and update the left hand side values and keep updating. 
 
 
