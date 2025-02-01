@@ -305,8 +305,18 @@ f(x) output is always between 0 and 1.
 If y is only 1 or 0. Then the simplified loss function is: 
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/ca015d87-9332-4ee4-b077-104d9ea61fd2" />
 
+Simplified cost function for logistic regression: 
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/0704b336-fae1-466c-81b4-21002f51ccca" />
 
+this is convex with single global minimum. 
 
+To calculate the gradient Dedcent, we need to find the multiple new w&b parameters of cost j() function repetedly to keep minimising the J(w,b) cost function.  
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/9759e712-fc3b-4883-9251-533b1a497911" />
+
+here `Wj` is the number of features. <img width="26" alt="image" src="https://github.com/user-attachments/assets/6d3c6c95-d7b3-4d34-8ebb-16cdb41fcf41" /> is the Jth feature of the of the training example i. 
+
+<img width="615" alt="image" src="https://github.com/user-attachments/assets/24a77989-6a22-47a9-82c6-3c73f9e19753" />
+Here, need to simultaneously calculate the right hand side values and update the left hand side values and keep updating. 
 
 
 
