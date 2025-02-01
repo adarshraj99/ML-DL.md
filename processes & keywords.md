@@ -319,6 +319,38 @@ here `Wj` is the number of features. <img width="26" alt="image" src="https://gi
 
 Here, need to simultaneously calculate the right hand side values and update the left hand side values and keep updating. 
 
+same can be written as below and then updated in the logistic regresion function f(x) of w,b. 
+
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/8786a6f4-6636-4e1c-a0d2-76c06eb157ea" />
+
+Further for **Convergence** and **Vectorization** and **feature scaling** in Gradient descent, can be done same way it is done in linear equation.   
+
+
+### Over Fitting: 
+**Bias** in ML can be due to under-fitting. Where model is not trained much over some data or because ML have some pre-learning or pre-conceptions (bias) over a set of data. 
+**Generalization** is training a model for knowing general idea so that for untrained data also model can predict the general outputs. This is possible with model with average training data with x-y equations not linear equation ,may be quadratic equation.  
+If the model is trained on multiple data sets(multi-polynomial equation) then model can become the overtrained model called **over-fitting** and not good for a general prediction.  Over-fitted model can give wrong outputs. This type of model is called to have **high variance** as with very small change in single input in training data can make the very different predictions for multiple ML engineers.   
+
+So, overfit model have high variance and underfit model have high bias. 
+
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/1a4a7947-4562-4780-a1eb-c27b07d52ac0" />
+
+similarly:
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/9dcdf4d4-d5a6-4df0-bed5-eda28f33caab" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
