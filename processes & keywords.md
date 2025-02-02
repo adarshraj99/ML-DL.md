@@ -338,6 +338,21 @@ So, overfit model have high variance and underfit model have high bias.
 similarly:
 <img width="602" alt="image" src="https://github.com/user-attachments/assets/9dcdf4d4-d5a6-4df0-bed5-eda28f33caab" />
 
+#### Adressing overfitting:
+Select only needed/most important features.
+Train model with more data: best way
+Regularization: model is trained to self make some `w` values of the polynomial minimal or 0 (ignoring the training data feature) and see if the curve fits the training data better without it. 
+
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/0ecc6e42-484c-4a85-a56c-012de2a979be" />
+
+Adding all the small `w` values to make a number for simplicity we use Lambda (always lambda > 0) called regularization parameter. 
+
+<img width="549" alt="image" src="https://github.com/user-attachments/assets/e4b30f78-d56c-40b4-99b8-647578fe6a6b" />
+
+first part is called mean squared error and other called regularization term. 
+
+
+
 
 
 
