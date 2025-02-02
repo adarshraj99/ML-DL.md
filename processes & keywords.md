@@ -349,7 +349,38 @@ Adding all the small `w` values to make a number for simplicity we use Lambda (a
 
 <img width="549" alt="image" src="https://github.com/user-attachments/assets/e4b30f78-d56c-40b4-99b8-647578fe6a6b" />
 
-first part is called mean squared error and other called regularization term. 
+first part is called `mean squared error` and other called `regularization term`. Here, we keep Wj small and choose Lambda to balance to banance between mean squared error and  regularization term. 
+So, If Lambda = 0. regularization term = 0 and J(w,b) is only mean squared error which gets overfitted curve. 
+and, If Lambda is very very high number eg. 10^10. Then, since regularization term is very big number, mean squared error nead to belance it out and learning algorithm will choose w1,w2,w3,w4.... to be very very near to zero. so, f(x) becomes equal b and gives a linear graph and cause underfitting. 
+
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/755f1217-4c56-46db-9c46-f9c32f0c9765" />
+
+So, need to choose good values of Lambda. 
+
+
+#### Regularized Linear Regression:
+
+Keep updating w for j=1 to n and updating b with updated w. 
+
+<img width="639" alt="image" src="https://github.com/user-attachments/assets/c1008e6b-7cb2-4e62-ac89-b5bc6acaeb55" />
+
+Formula to calculate the gradient descent :
+<img width="484" alt="image" src="https://github.com/user-attachments/assets/e4b39a44-9b78-4b5b-bd3c-6ae79c738ff7" />
+
+COst function for logistic regression was: 
+
+<img width="752" alt="image" src="https://github.com/user-attachments/assets/ada14ab7-863d-4d2c-a66b-1b42edf827f1" />
+
+Adding regularization to it: 
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/05411f84-af69-4db5-a0c7-157459334031" />
+
+and, by resetting the w and b parameters here to get the least J(w,b) and gradient descent. here, we get the high order polynomial but it is not overfitting due to generalization. 
+ 
+
+
+
+
 
 
 
