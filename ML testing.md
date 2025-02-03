@@ -213,7 +213,7 @@ In some models when the input data gets reversed (ex: input data about the 2 dif
 In some models reversing the input data should change the output. 
 
 #### Responsible AI testing:
-The model output must be ethical. 
+The model output must be ethical. Types: Bias Testing, Explainability, Safety Testing, Privacy protection, Red Teaming. 
 
 #### Transperancy testing: 
 To check any business criteia correctly by model. ex: If a loan being distributed. model should predict correctly about the loan taker ability to return loan and other criterias. And, model should give the loan rejection/approval points in detail to share with the customer.
