@@ -1,4 +1,4 @@
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/81c73387-521d-41af-ad06-1a0784611ebc" /># Keywords: 
+# Keywords: 
 
 ### Neural Networks: 
 Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
@@ -522,6 +522,8 @@ Weights ,Activations, biases are passed in the sigmoid function to calculate the
 ![image](https://github.com/user-attachments/assets/c63bdce7-3137-4016-9ffa-3d840521bef0)
 
 Sigmoid function is old schoold now and new one is ReLU(a) = max(0,a) where a is activation. ReLU is Rectified Linear Unit. 
+
+### Four types of machine learning: supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning
 
 ### Supervised Learning: 
 * A type of machine learning where the model is trained on **labeled data**. Here, model is trained to get a generalized answer for an new input data.  
