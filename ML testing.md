@@ -4,7 +4,7 @@
 ### Types of testing: 
 - responsible ai testing, post production testing, shift left testing, Prompting testing, Memory Testing ,Context testing, 
 
-### Examples of ML: 
+### Examples of ML models: 
 - Spam filters in emails,  Promotion recomendation engines by user preferences,  Predective maintainance for industrial equipments.
 
 ### Strengths and Limitations: 
