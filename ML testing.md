@@ -40,7 +40,7 @@ It is type of machine learning algorithm that learns from labeled data. Here, ML
 Types of supervised learning: 
 
 #### Regression supervised learning: 
-For <u> contineous data prediction </u> like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
+For <span style="color: blue;">contineous data prediction</span> like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
 * Linear regression
 * Polynomial Regression
 * Support Vector Machine Regression
