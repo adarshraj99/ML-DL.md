@@ -16,24 +16,31 @@
 <img width="862" alt="image" src="https://github.com/user-attachments/assets/847194be-7d5c-4518-9164-538faa4b1d3d">
 
 - Devs use Training data and testers have validation data.
-- Validation data have 2 problems: Underfitting(Need more data training on seen data) and Overfitting(If a high accuracy model is trained on more related but un-useful data than needed(ex: giving house colour,designs,facing directions. model can't predict price accurately) efficiency goes down, ). 
-- GoodFit: after UnderFitting, when model starts giving better results. Itis said a goodfit.
+- Validation data have 2 problems: **Underfitting**(Need more data training on seen data) and **Overfitting**(If a high accuracy model is trained on more related but un-useful data than needed(ex: giving house colour,designs,facing directions. model can't predict price accurately) efficiency goes down). 
+- GoodFit: after UnderFitting, when model starts giving better results. Itis said a goodfit. It is just before overfitting.
 - Overfitting: Caused by:
       - over training from unrelated data (called noise & randomeness).
-      - Can be caused by more model complexity.
-      - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2).
+      - Can be caused by more model complexity (not giving generalised output).
+      - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2), Elastic Net.
       - Cross validation not implemented.   
-- Labeled data vs Unlabeled data: When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
+- ##### Labeled data vs Unlabeled data:
+  When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
+- ##### Regularization:
+  A tehnique used to prevent overfitting by adding a **penalty** for the loss function. This penalty discourages the overly complex models making them more generalizable to new data. Non-regularization ,otherwise means tarining models without penalty which can cause overfitting, **High Variance**, Increased Complexity (capturing noise alongwith signals).
+- ##### Cross Validation:
+ Dataset is divided into sets of data. Some set of data is used for training the model and other sets are used for verification of the tranined model.   
+- ##### High Variance:
+Caused due to overfitting ,underfitting, Noise in training data, Complex modeling. Here, model performs exceptionally well on training dataset but fails to generalize and performs poorly on the data. 
   
 ## Supervised Learning: 
 It is type of machine learning algorithm that learns from labeled data. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
-* Advantages: Lears from previous experiences, solves real time computational problems
+* Advantages: Learns from previous experiences, solves real time computational problems.
 * Disadvantages: Classifying big data can be challenging, Needs lots of computation time and resourses, requires labelled data set, needs training mentor. 
    
 Types of supervised learning: 
 
 #### Regression supervised learning: 
-For contineous data prediction like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
+For <u>contineous</u> data prediction like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
 * Linear regression
 * Polynomial Regression
 * Support Vector Machine Regression
@@ -50,7 +57,10 @@ Solves a classification problem where the output variable is a categtory like an
 * Naive Bayes
 * K-Nearest Neighbors (KNN)
 * Neural Networks :Highly capable model capable of handling various types of data and tasks including image and speech recognition by learning complex patterns from data. Library used : Tensor Flow 
-* Gradient Boosting Machines(GBM): 
+* Gradient Boosting Machines(GBM):
+
+#### Time Series Forecasting: 
+
 
 
 ### Ways to evaluate supervised learning models: 
