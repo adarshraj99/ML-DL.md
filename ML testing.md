@@ -9,7 +9,7 @@
 
 ### Strengths and Limitations: 
 - Flexiblity: Can get results even when data is not feeded to the ML model, because it already learned from the previous data and it analyzes with predections.
-- Scalablity: Can give broader results than the conditional results from an expret based traditional systems.
+- Scalablity: Can give broader and narrower results depending on model's temprature than the conditional results from an expret based traditional systems.
 - Interpretability: ML models have  less interpretability and we don't know the outputs (As it's a prediction by machine). In expert based systems, Reactions are defined.
 
 ### ML Model Life cycle: 
