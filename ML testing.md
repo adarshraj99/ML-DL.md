@@ -30,7 +30,7 @@
 - ##### Cross Validation:
  Dataset is divided into sets of data. Some set of data is used for training the model and other sets are used for verification of the tranined model.   
 - ##### High Variance:
-Caused due to overfitting ,underfitting, Noise in training data, Complex modeling. Here, model performs exceptionally well on training dataset but fails to generalize and performs poorly on the data. 
+Caused due to overfitting ,Noise in training data, Complex modeling. Here, model performs exceptionally well on training dataset but fails to generalize and performs poorly on the data. 
   
 ## Supervised Learning: 
 It is type of machine learning algorithm that learns from labeled data. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
