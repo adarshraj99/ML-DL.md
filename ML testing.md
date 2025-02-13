@@ -24,7 +24,7 @@
       - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2), Elastic Net.
       - Cross validation not implemented.   
 - ##### Labeled data vs Unlabeled data:
-  When ML model have only input data and don't have output data called Un-labelled data ,When ML model have both Input and Output data called labelled data.
+  When ML model have only input data and don't have output data for training called Un-labelled data .When ML model have both Input and Output data for training called labelled data.
 - ##### Regularization:
   A tehnique used to prevent overfitting by adding a **penalty** for the loss function. This penalty discourages the overly complex models making them more generalizable to new data. Non-regularization ,otherwise means tarining models without penalty which can cause overfitting, **High Variance**, Increased Complexity (capturing noise alongwith signals).
 - ##### Cross Validation:
