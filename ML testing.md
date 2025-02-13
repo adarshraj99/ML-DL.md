@@ -33,7 +33,7 @@
 Caused due to overfitting ,Noise in training data, Complex modeling. Here, model performs exceptionally well on training dataset but fails to generalize and performs poorly on the data. 
   
 ## Supervised Learning: 
-It is type of machine learning algorithm that learns from labeled data. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
+It is type of machine learning algorithm that learns from **labeled data**. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
 * Advantages: Learns from previous experiences, solves real time computational problems.
 * Disadvantages: Classifying big data can be challenging, Needs lots of computation time and resourses, requires labelled data set, needs training mentor. 
    
@@ -41,20 +41,19 @@ Types of supervised learning:
 
 #### Regression supervised learning: 
 For contineous data prediction like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
-* Linear regression
+* Linear regression.  Frameworks used for linear regression: Scikit Learn.
 * Polynomial Regression
 * Support Vector Machine Regression
 * Decision Tree Regression
 * Random Forest Regression
 
 #### Classification supervised learning: 
-Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. Here, the output is not infinite possiblities but only a set of outputs. It learns from input data and by using probablity distribution over output groups. Some common types are : 
-* Linear Regression : For Predicting a continuous value like house prices.  Frameworks used for linear regression: Scikit Learn.
+Solves a classification problem where the output variable is a categtory like any colour, any disease, any other condition, email spam. Here, the output is not infinite possiblities but only a **set of outputs**. It learns from input data and by using **probablity distribution** over output groups. Some common types are : 
 * Logistic regression: Used for Binary classification tasks like : mail Spam Detection ,loan approvals by learning probablity of binary outcome. Used for both. Framework used : Scikit Learn, 
-* support vector machines(SVMs): effecrive in high dimentional soaces. Used for both regression and classification.  
-* Decision Trees
-* Random Forests
-* Naive Bayes
+* support vector machines(SVMs): Effective in high dimentional spaces. Used for both regression and classification.
+* Decision Trees: Suits both Classification and Regression supervised learning.
+* Random Forests: Suits both Classification and Regression supervised learning.
+* Naive Bayes: It is particularly usefull for **text classification** tasks, such as spam detection, sentiment analysis, and document categorization.
 * K-Nearest Neighbors (KNN)
 * Neural Networks :Highly capable model capable of handling various types of data and tasks including image and speech recognition by learning complex patterns from data. Library used : Tensor Flow 
 * Gradient Boosting Machines(GBM):
@@ -80,12 +79,13 @@ Solves a classification problem where the output variable is a categtory like an
   
 
 ## UnSupervised Learning: 
-Here learning happens from UnLabeled or Uncategorized data. Goal is to discover the pattern and categories in the Unlabeled data without explicit guidance. No training is given to the model. So, machines are supposed to find the hidden pattern ,actions or structures to categirize data.  
+Here learning happens from unlabeled or uncategorized data. Goal is to discover the pattern and categories in the Unlabeled data without explicit guidance. No training is given to the model. So, machines are supposed to find the hidden pattern ,actions or structures to categirize data.  
 
 Types of unsupervised learning: 
 
 #### Clustering: 
-Grouping similar data points together. It is a way to move silimar data points in nearer to the same clusters and away from the other non-similar data clusters. techniques and methods are used to group data points into clusters based on their similarities: 
+Grouping similar data points together. It is a way to move silimar data points in nearer to the same clusters and away from the other non-similar data clusters. 
+Techniques and methods are used to group data points into clusters based on their similarities: 
 
 * Exclusive (partitioning)
 * Agglomerative
@@ -110,17 +110,18 @@ Here, relationship between different data in clusters are found. Such as ,people
 
 
 
-### Testing UnSUpervised data models(BlackBox functional testing):
+## Testing UnSupervised data models(BlackBox functional testing):
+
 #### Cross validation testing method: 
 1st step is Training on Training set. Then Training on Validation set. Here, can train the dev build with many inout data and see if build is able to segrigate the input data into different clusters and test it by asking questions like: where is my sales highest in which city ,product, questions on type of customers to target marketing. 
 
-Here, We have only un-labeled data. In **training data set**, model learns the needed patterns and structure in data. In **validation data set** ,input data(Training data set) is seprated into clusters of matching data .
+Here, We have only un-labeled data. In **training data set**, model learns the needed patterns and structure in data. In **validation data set** ,input data(Training data set) is seprated into clusters of matching data.
 
 ### Silhouette Scores(For Whitebox testing): 
-This score is from -1 to 1. This checks the new untrained data score of model. If data is matching to the similar data cluster and not matching to the other nearby clusrters, it is higher score. If score is matching to the nearby cluster, it is low score and shows data far away from matching cluster.
+This score is from -1 to 1. This checks the new untrained data score of model. If data is matching to the similar data cluster and not matching to the other nearby clusters, it is higher score. If score is matching to the nearby cluster, it is low score and shows data far away from matching cluster.
 Can ask developers ,the methods and utilities where to pass data with some python methods to get the Silhouette score for different test data. 
 
-If the silhoutte scores are high with training data and it suddenly score dips after more training it reached training Overfitting. So, should stop there. 
+If the silhoutte scores are high with training data and suddenly score dips after more training ,it reached training Overfitting. So, should stop there. 
 
 ### Calinski-Harabasz score: 
 The Calinski-Harabasz score measures the ratio between the variance between clusters and the variance within clusters. Ranges from 0 to infinity. Higher score is better clustering.
@@ -132,7 +133,7 @@ measures the similarity between two clusterings. It ranges from -1 to 1. higher 
 This is weighted avg. of precision and recall ,which are 2 matrics used in supervised learning to evaluate classification model. F1 score can also be used for Unsupervised learning.  
 
 ### Applications of Supervised Learning: 
-* Span filtering, Image classification, Medical DIagnosys, Fraud Detection,
+* Spam filtering, Image classification, Medical Diagnosys, Fraud Detection,
 ### Applications of unsupervised leaerning: 
 * anomaly detection: Can identify unusual(total new) patterns or deviations from normal behaviour in data, enabling fraud detection, system failure etc.
 * Scientific discovery: Can find hidden relation,pattern in data.
