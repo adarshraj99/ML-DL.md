@@ -9,8 +9,8 @@
 
 ### Strengths and Limitations: 
 - Flexiblity: Can get results even when data is not feeded to the ML model, because it already learned from the previous data and it analyzes with predections.
-- Scalablity: Can give broader and narrower results depending on model's temprature than the conditional results from an expret based traditional systems.
-- Interpretability: ML models have  less interpretability and we don't know the outputs (As it's a prediction by machine). In expert based systems, Reactions are defined.
+- Scalablity: Can give broader and narrower results depending on model's **temprature** than the conditional results from an expret based traditional systems.
+- Interpretability: ML models have less interpretability and we don't know the outputs (As it's a prediction by machine). In expert based systems, Reactions are defined.
 
 ### ML Model Life cycle: 
 <img width="862" alt="image" src="https://github.com/user-attachments/assets/847194be-7d5c-4518-9164-538faa4b1d3d">
@@ -19,7 +19,7 @@
 - Validation data have 2 problems: **Underfitting**(Need more data training on seen data) and **Overfitting**(If a high accuracy model is trained on more related but un-useful data than needed(ex: giving house colour,designs,facing directions. model can't predict price accurately) efficiency goes down). 
 - GoodFit: after UnderFitting, when model starts giving better results. Itis said a goodfit. It is just before overfitting.
 - Overfitting: Caused by:
-      - over training from unrelated data (called noise & randomeness).
+      - over training from unuseful data (called noise & randomeness).
       - Can be caused by more model complexity (not giving generalised output).
       - Can be caused by non-regularization. To be corrected by Regularization techniques like - Lasso(L1) ,Ridge(L2), Elastic Net.
       - Cross validation not implemented.   
