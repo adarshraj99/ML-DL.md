@@ -158,9 +158,25 @@ Combination of Supervised and Unsupervised learning. eg: ChatGPT.
 
 ## Reinforcement Learning: 
 Here model learns from it's surrounding ,actions taken by other users, here model's decision depends on the current state not the history. This needs trial and error for learning. 
+How it works: 
+The agent interacts with the environment and receives rewards for performing actions. The agent learns from the feedback of each action and discovers the best processing paths. The agent learns the optimal behavior in an environment to obtain maximum reward. 
+ex: In Robotics for task performing, Gaming for responding to player's actions, Autonomous cars for teaching navigation to self driving cars.
+
+Process:
+Define the environmentand reward for the agent.
+Create the agent that specifies the policies involved.
+Use neural networks or lookup tables to represent the policy.
+Choose the suitable RL training algorithm.
 
 Types of Reinforcement learning:
-* 
+* Positive: Here model learns to create a positive behaviour or step as a result of environment update to get goals.
+* Negative: Here model learns to undo a negative behavious or step as a result of the env change to get goals.
+
+Some Elements of RL: 
+Policy: Defines the agent’s behavior at a given time. 
+Reward Function: Defines the goal of the RL problem by providing feedback.
+Value Function: Estimates long-term rewards from a state.
+Model of the Environment: Helps in predicting future states and rewards for planning.
 
 
 Famous Frameworks: 
