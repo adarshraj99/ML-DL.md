@@ -35,13 +35,14 @@ Caused due to overfitting ,Noise in training data, Complex modeling. Here, model
 ## Supervised Learning: 
 It is type of machine learning algorithm that learns from **labeled data**. Here, ML model needs a trainer to train model on the labeled data(with correct answer or tagged data). 
 * Advantages: Learns from previous experiences, solves real time computational problems.
-* Disadvantages: Classifying big data can be challenging, Needs lots of computation time and resourses, requires labelled data set, needs training mentor. 
+* Disadvantages: Classifying big data can be challenging, Needs lots of computation time and resourses, requires labelled data set, needs training mentor.
+ex : This is usefull when want to predict outcome based on input features. ex: Email spam detection, image recognition, Predicting house prices, weather forecasting.
    
 Types of supervised learning: 
 
 #### Regression supervised learning: 
 For contineous data prediction like house prices, stock prices, customer behaviour. These learn to predict numbers out of infinitely possible numbers. Some common types are: 
-* Linear regression.  Frameworks used for linear regression: Scikit Learn.
+* Linear regression. Frameworks used for linear regression: Scikit Learn.
 * Polynomial Regression
 * Support Vector Machine Regression
 * Decision Tree Regression
