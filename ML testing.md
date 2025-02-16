@@ -206,7 +206,8 @@ Temprature testing is used to control the randomness of predictions in the gener
 
 
 #### 0 Shot Testing prompts:
-Testing how the model handles requests without prior training on similar examples. Ex: asking medical domain trained model about geography questions.
+Testing how the model handles requests without prior training on similar Category of data. Ex: asking medical domain trained model about geography questions. Model is expected to generalize the outputs and also use the other categories training data. 
+Here, model relies on its broader understanding of the domain, like semantic relationships between concepts, to make predictions. 
 
 
 #### Chain of thought testing prompts: 
@@ -237,7 +238,7 @@ If user is based in Indian Hydrabad and asking about city hotels. Model should n
 The output of model should not change for a question after adding irrelevant points to the same question. Medical ex: By changing Patient's name, DOB it should not change models prediction of patient's heart attacks chances. 
 
 #### BiDirectional Testing: 
-In some models when the input data gets reversed (ex: input data about the 2 different lunds of same person) the modles prediction about lung cancer should not change.
+In some models when the input data gets reversed (ex: input data about the 2 different lungs of same person) the modles prediction about lung cancer should not change.
 In some models reversing the input data should change the output. 
 
 #### Responsible AI testing:
@@ -265,7 +266,7 @@ To check if the model/build is working correctly with the production servers.
 Testing for the model answers in a timeframe. Check in normal and peak load. 
 
 #### Drift Testing: 
-* Data Drift Testing: if real life data is changing w.r.t. time for training model. Model should be updated accordingly. Here, way of asking questions to model is changed like 'I have this symptoms, do i have Covid?', here input symptoms have cdhanged. Drifts can be of many types : sudden drift, gradual drift, incremental drift, and reoccurring drift(happens after some time).
+* Data Drift Testing: if real life data is changing w.r.t. time for training model. Model should be updated accordingly. Here, way of asking questions to model is changed like 'I have this symptoms, do i have Covid?', here input symptoms have changed. Drifts can be of many types : sudden drift, gradual drift, incremental drift, and reoccurring drift(happens after some time).
 
 * Concept Drift Testing: Similar as data drift, here any working method or concept changed. Here question to model is same but the output must change as concept is changed. like selenium way of invoking webdriver have changed. 
 
