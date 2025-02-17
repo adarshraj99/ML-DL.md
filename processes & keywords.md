@@ -41,38 +41,107 @@ This is used for Image generation from text, generate music, New Videos, Can gen
 ### Underfitting vs Overfitting: 
 
 #### Labels: 
-Answer or output of the target variable that a model is trying to predict. This is used to learn and make predictions.
+Answer or output of the target variable that a model is trying to predict. This is used to learn and make predictions. Input data is labeled pre-processing of data. 
+
+
 #### Temprature: 
-Temperature is a parameter in generative AI (GenAI) that controls the randomness of the output. Higher temprature means more creative output and lower temprature gives more predictive output. It is in range 0-2 and default set in google gemini is 1. 
+Temperature is a parameter in generative AI (GenAI) that controls the randomness of the output. Higher temprature means more creative output and lower temprature gives more predictive output. General range is 0-1. 
+
+
 #### Tokens: 
-Smallest independant data blocks made by genAI model from the given input. Model makes small blocks to find which block suits with which block to make a correct output.
+Smallest fundamental independant data blocks made by genAI model from the given input. Model makes small blocks to find which block suits with which block to make a correct output. These can be words, punctuation marks, or even sub-words.
+
+
 #### Embeddings : 
-Encodes the tokens with it's meanings based on thet token data. As, input passes through the model layers ,tokens gets updated Embeddings.
+Encodes the tokens with it's meanings based on thet token data. As, input passes through the model layers ,tokens gets updated Embeddings. These are a way to represent real-world objects as mathematical vectors. 
+Embeddings capture the meaning and grammatical properties of words. For example, words with similar meanings have similar embeddings. 
+Embeddings convert high-dimensional data into low-dimensional vectors. This makes the data easier to process. 
+Used for finding similar texts, images, helps ChatsBots to understand relationship between words and images, Fraud detection by identifying certain similar pattern.
+
+
 #### Context: 
 amount of text data a model can process at a given time.
+it is the surrounding information, circumstances, and relevant factors that influence the interpretation and decision-making process of an AI algorithm. It is like understanding the whole picture before making a judgement.
+ex: In image recognition, the surrounding objects in a scene can provide context about an object.
+    In text analysis, previous sentences in a paragraph can give context to understand the current sentence.
+    In a recommendation system, a user's past purchase history can provide context for suggesting new items.
 - Tokens keeps updating itself based on the input data which helps in the output data needed.
+
+
 #### Hallusination: 
 AI bot gives incorrect answers because of limited data training or having multiple outputs, lenghty complex prompts, human phrase languase non-understanding. ex: prompt: "my schoolteacher head is on fire .What should i do ?"  ,  "she is as blind as a bat. What should i do ?"(here i meant she dosen't care about things around).
+
 #### Banned Contents: 
 Some contents are banned from GPT. like : info on political figure location ,info on global wars like :who will isreal kill next?   
-#### Text classification and sorting: 
+
+#### Text classification and sorting:
+the process of automatically categorizing text data into predefined classes or categories.
+
 #### Sentiment analysis: 
+he process of analyzing written text to determine if it has a positive, negative, or neutral sentiment. 
+
 #### Information extraction(IE): Types :Named-entity recognition(NER)&,...
+
 #### Speech recognition:
+the process of converting spoken language into text using machine learning models. 
+
 #### Natural language understanding and generation(NLU & NLG):
+
 #### Computer Vision: 
+
 #### Image classification: 
+
 #### Target detection: 
+the process of identifying and locating specific objects of interest within an image or video, essentially pinpointing their position and classifying what they are, often using computer vision techniques. Uses: autonomous driving, surveillance systems, and image analysis.
+
+
 #### Image segmentation: 
+a computer vision technique that involves dividing a digital image into multiple distinct regions or segments, where each pixel within a segment shares similar characteristics like color, texture, or brightness, allowing for detailed analysis of objects within an image by assigning a label to each pixel. It's like creating a "map" of the image by identifying and separating different parts of it.
+Unlike object detection which identifies objects within an image, image segmentation assigns a class label to each individual pixel, providing a more precise outline of objects.
+Techniques for Image segmentation: 
+Thresholding: Simple method where pixels are classified based on intensity values exceeding a set threshold.
+Clustering algorithms: Grouping pixels with similar features using techniques like K-means clustering.
+Region growing: Expanding regions from seed points based on pixel similarity.
+CNNs are widely used for Image segmentation. 
+
+
 #### Significance test:
+a statistical method used to determine whether an observed effect (like a relationship between features and target variable) is likely due to a real phenomenon or simply random chance
+
+
 #### Overfitting:
+
 #### Wrap Up:
+
+
 #### Parameter tuning: 
+the process of adjusting a model's settings to improve its performance. Different parameters settings are done to see and verify their results to select the best parameter giving best results.
+parameter tuning techniques: 
+Grid search: An exhaustive method that evaluates every possible combination of parameter is checked for output.
+Bayesian optimization: A probabilistic method that uses a model to predict which parameter values will perform best.
+Random search: A method that randomly selects a combination of parameters to test.
+
+
 #### Confusion Matrix: 
-#### Precision:
+It s a table that compares predicted values to actual values for a dataset. It's a way to evaluate how well a machine learning model is performing. 
+
 #### Feature Extraction: 
+process that transforms raw data into new features that are more useful for machine learning models. it is one of dimensionality reduction technique. 
+How it works: 
+Combines or modifies original data to create new features
+highlights the most meaningful information
+Simplifies the model's task while retaining as much relevant information as possible
+
 #### Model Training: 
+
 #### Dimensionality Reduction: 
+a technique that transforms a large dataset with many features into a smaller dataset with fewer features, still preserving the important information, effectively reducing the complexity of the data and improving the efficiency of machine learning models by removing redundant or irrelevant information. 
+Common techniques are :
+Principal Component Analysis (PCA), 
+Linear Discriminant Analysis (LDA), 
+Independent Component Analysis (ICA)
+
+
 #### Classification vs Regresion Techniques: 
 #### Multiclass classification: 
 #### Linear Regression abd Types: 
@@ -89,9 +158,6 @@ Some contents are banned from GPT. like : info on political figure location ,inf
 #### K means clustering: 
 #### Types of Clustering: 
 #### Dimensionality Reduction: 
-#### 
-
-
 ### Datasets:
 #### Training data set: 
 #### Validation data set:
