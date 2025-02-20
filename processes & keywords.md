@@ -26,13 +26,13 @@ Cons: These are being replaced by LLMs and transformer based AI.
 These work by remembring past info by feeding output from one layer to other layer. Ex: for predicting the next word in sentance RNN uses previous words to help decide most likely next word. 
 
 
-### Fully connected network(FCNN): 
+### Fully connected neural network(FCNN): 
 All major types of NNs are FCNNs like CNN, RNN etc. 
 artificial neural network where the architecture is such that all the nodes, or neurons, in one layer are connected to the neurons in the next layer.
 FCNNs are more dense and have more connections than CNNs, but basic design is same.
 
 
-### Generative Adversarial Network (GANs): 
+### Generative Adversarial Neural Network (GANN): 
 GANs train 2 Neural Networks compete against each other. Used for Deep larning. 1 network(the generator) creates new data and other network(the discriminator) identifies real data from the fake data created by the generator.  The discriminator learns to diffrentiate between the 2 types of data. 
 This is used for Image generation from text, generate music, New Videos, Can generate real training data for other models.  
 
