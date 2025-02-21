@@ -6,7 +6,28 @@
 6. Advantages ,disadvantages of ML.
 7. Product development and Testing Lifecycle.
 8. What are the types of Neural Networks ?
-9. What are the types of Testing in ML  and when to do them in workflow ? 
-10. Regularization and Techniques.
-11. Some Famous ML Frameworks and their usecases accouring to model types, adv/disadv.
-12. 
+9. What are the types of Testing in ML  and when to do them in workflow ?
+11. Regularization and Techniques.
+12. Some Famous ML Frameworks and their usecases accouring to model types, adv/disadv.
+13. Explain these types of testings: 
+* Temprature Testing
+* 0 shot Testing
+* Chain of thought
+* Fantasy Claim Testing
+* Accuracy Testing
+* Repeatablity Testing
+* Style Transfer Testing
+* Invariance Testing
+* BiDirectional Testing
+* Responsible AI testing
+* Transperancy Testing
+* Ethical Testing
+* Data Privacy and Security Testing
+* Model Generalization Testing
+* Social Impact Testing
+* Integration Testing
+* Latency Testing
+* Drift Testing
+* Shadow Testing
+* A/B testing
+* 
