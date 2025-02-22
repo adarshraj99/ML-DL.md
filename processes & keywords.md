@@ -40,7 +40,7 @@ This is used for Image generation from text, generate music, New Videos, Can gen
 
 ### Underfitting vs Overfitting: 
 
-#### Labels: 
+#### Labelled data: 
 Answer or output of the target variable that a model is trying to predict. This is used to learn and make predictions. Input data is labeled pre-processing of data. 
 
 
