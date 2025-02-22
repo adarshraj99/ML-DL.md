@@ -53,7 +53,7 @@ Smallest fundamental independant data blocks made by genAI model from the given 
 
 
 #### Embeddings : 
-Encodes the tokens with it's meanings based on thet token data. As, input passes through the model layers ,tokens gets updated Embeddings. These are a way to represent real-world objects as mathematical vectors. 
+**Encodes the tokens** with it's meanings based on that token data. As, input passes through the model layers ,tokens gets updated Embeddings. These are a way to represent real-world objects as mathematical vectors. 
 Embeddings capture the meaning and grammatical properties of words. For example, words with similar meanings have similar embeddings. 
 Embeddings convert high-dimensional data into low-dimensional vectors. This makes the data easier to process. 
 Used for finding similar texts, images, helps ChatsBots to understand relationship between words and images, Fraud detection by identifying certain similar pattern.
@@ -61,7 +61,7 @@ Used for finding similar texts, images, helps ChatsBots to understand relationsh
 
 #### Context: 
 amount of text data a model can process at a given time.
-it is the surrounding information, circumstances, and relevant factors that influence the interpretation and decision-making process of an AI algorithm. It is like understanding the whole picture before making a judgement.
+it is the surrounding information, circumstances, and **relevant factors that influence the interpretation** and decision-making process of an AI algorithm. It is like understanding the whole picture before making a judgement.
 ex: In image recognition, the surrounding objects in a scene can provide context about an object.
     In text analysis, previous sentences in a paragraph can give context to understand the current sentence.
     In a recommendation system, a user's past purchase history can provide context for suggesting new items.
@@ -97,17 +97,17 @@ the process of identifying and locating specific objects of interest within an i
 
 
 #### Image segmentation: 
-a computer vision technique that involves dividing a digital image into multiple distinct regions or segments, where each pixel within a segment shares similar characteristics like color, texture, or brightness, allowing for detailed analysis of objects within an image by assigning a label to each pixel. It's like creating a "map" of the image by identifying and separating different parts of it.
+a computer vision technique that involves **dividing a digital image into multiple segments, where each pixel within a segment shares similar characteristics like color, texture, or brightness**, allowing for detailed analysis of objects within an image by assigning a label to each pixel. It's like creating a "map" of the image by identifying and separating different parts of it.
 Unlike object detection which identifies objects within an image, image segmentation assigns a class label to each individual pixel, providing a more precise outline of objects.
 Techniques for Image segmentation: 
-Thresholding: Simple method where pixels are classified based on intensity values exceeding a set threshold.
-Clustering algorithms: Grouping pixels with similar features using techniques like K-means clustering.
-Region growing: Expanding regions from seed points based on pixel similarity.
+**Thresholding**: Simple method where pixels are classified based on intensity values exceeding a set threshold.
+**Clustering algorithms**: Grouping pixels with similar features using techniques like **K-means clustering**.
+**Region growing**: Expanding regions from seed points based on pixel similarity.
 CNNs are widely used for Image segmentation. 
 
 
 #### Significance test:
-a statistical method used to determine whether an observed effect (like a relationship between features and target variable) is likely due to a real phenomenon or simply random chance
+a statistical method used to determine whether an observed effect (like a relationship between features and target variable) is likely due to a real phenomenon or simply random chance.
 
 
 #### Overfitting:
@@ -119,12 +119,12 @@ a statistical method used to determine whether an observed effect (like a relati
 the process of adjusting a model's settings to improve its performance. Different parameters settings are done to see and verify their results to select the best parameter giving best results.
 parameter tuning techniques: 
 Grid search: An exhaustive method that evaluates every possible combination of parameter is checked for output.
-Bayesian optimization: A probabilistic method that uses a model to predict which parameter values will perform best.
-Random search: A method that randomly selects a combination of parameters to test.
+Bayesian optimization: A **probabilistic method** that uses a model to predict which parameter values will perform best.
+**Random search**: A method that randomly selects a combination of parameters to test.
 
 
 #### Confusion Matrix: 
-It s a table that compares predicted values to actual values for a dataset. It's a way to evaluate how well a machine learning model is performing. 
+It is a table that **compares predicted values to actual values** for a dataset. It's a way to evaluate how well a machine learning model is performing. 
 
 #### Feature Extraction: 
 process that transforms raw data into new features that are more useful for machine learning models. it is one of dimensionality reduction technique. 
