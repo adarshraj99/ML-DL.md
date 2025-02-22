@@ -143,25 +143,54 @@ Linear Discriminant Analysis (LDA),
 Independent Component Analysis (ICA)
 
 
-#### Classification vs Regresion Techniques: 
+#### Classification(Binary) vs Regresion ML Techniques: 
+Classification is used when the output variable is a category. Email Spam Detection, Image detection(Dog/Cat/Other), Sentiment Analysis. Algorithms: Logistic Regression, SVM, Random Forest, Decision Tree, CNN. Checks by : Accuracy, F1 Score, 
+Regression is used when the output variable is a continuous value. The goal is to predict a numerical value based on the input data. ex: House Price Prediction, Stock Market Forecasting, Weather Prediction. Algorithms: Linear Regression, Polynomial Regression, Support vector regression, RNN, Checked by: Mean Absolute Error, ean Squared Error, R-squared(Coefficient of Determination). 
+
+
 #### Multiclass classification: 
-#### Linear Regression abd Types: 
+There is only Binary and Multiclass classification types of classification in ML. Unlike Binary Classification it is for categorize data into more than 2 groups. It handles more complex scenarios. ex: Handwriting recognition(can be matching to one or more person), Text classification (Text can be classified onto multiple groups). 
+
+
+#### Different types of Regression: 
+In ML different types of regression are designed for working with different types of data and predictions. Most commonly used regression types are : Linear regression, Polynomial regression, Ridge Regression, Lasso Regression, Elastic Net Regression, Logistic regression, Support Vector Regression, Decision Tree Regression, Random Forest Regression, Step wise Regression.
+
+
+#### Linear Regression and Types: 
+
+
 #### Simple /Multiple Linear Regression:
-#### Evaluation Matrix: 
+
 #### Polynomial Regresion: 
-#### SoftMax Regression: 
+
 #### Logistic regression:
+
+#### Evaluation Matrix: 
+
+#### SoftMax Regression: 
+
 #### Naive Bayes: 
+
 #### Support Vector Machines:
+
 #### Decision Tree: 
+
 #### Random Forest: 
+
 #### Clustering: 
+
 #### K means clustering: 
+
 #### Types of Clustering: 
+
 #### Dimensionality Reduction: 
+
 ### Datasets:
+
 #### Training data set: 
+
 #### Validation data set:
+
 #### Test data set:
 
 ## Denotions in ML algorithms: 
