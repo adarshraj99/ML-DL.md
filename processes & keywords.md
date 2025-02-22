@@ -80,7 +80,8 @@ the process of automatically categorizing text data into predefined classes or c
 #### Sentiment analysis: 
 he process of analyzing written text to determine if it has a positive, negative, or neutral sentiment. 
 
-#### Information extraction(IE): Types :Named-entity recognition(NER)&,...
+#### Information extraction(IE): 
+Types :Named-entity recognition(NER)&,...
 
 #### Speech recognition:
 the process of converting spoken language into text using machine learning models. 
