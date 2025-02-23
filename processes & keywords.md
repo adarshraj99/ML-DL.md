@@ -392,7 +392,7 @@ With this training data is used it will take much time to find global min. in gr
 
 <img width="470" alt="image" src="https://github.com/user-attachments/assets/a1e1666a-e4f1-49af-801f-548eaf21a334" />
 
-Having different features with various range of values makes it difficult to get the global min from gradient descent. 
+**Having different features with various range of values makes it difficult to get the global min from gradient descent.** 
 So, should making smaller numbers bigger or bigger numbers smaller (**Ultimately need to put all features in same scale for getting global min faster**) to get a clear scattered plot and contour plot. 
 
 <img width="806" alt="image" src="https://github.com/user-attachments/assets/3e2bec0d-2b12-437c-bc47-fa2d7f3a3923" />
