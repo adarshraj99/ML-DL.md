@@ -157,6 +157,7 @@ In ML different types of regression are designed for working with different type
 
 
 #### Linear Regression and Types: 
+It is for predictive analysis. 
 
 
 #### Simple /Multiple Linear Regression:
