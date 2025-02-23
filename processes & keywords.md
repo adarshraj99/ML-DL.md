@@ -175,7 +175,7 @@ ex: selling price of house can depend on location, number of bedrooms and bathro
 
 
 #### Polynomial Regresion: 
-
+Polynomial Regression is a form of linear regression in which the relationship between the independent variable(Input) x and dependent variable(output) y is modelled as an nth-degree polynomial. Polynomial regression fits a nonlinear relationship between the value of x and the corresponding conditional mean of y. 
 
 
 
