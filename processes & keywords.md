@@ -176,6 +176,9 @@ ex: selling price of house can depend on location, number of bedrooms and bathro
 
 #### Polynomial Regresion: 
 
+
+
+
 #### Logistic regression:
 
 #### Evaluation Matrix: 
