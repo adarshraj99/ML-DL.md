@@ -176,16 +176,75 @@ ex: selling price of house can depend on location, number of bedrooms and bathro
 
 #### Polynomial Regresion: 
 Polynomial Regression is a form of linear regression in which the relationship between the independent variable(Input) x and dependent variable(output) y is modelled as an nth-degree polynomial. Polynomial regression fits a nonlinear relationship between the value of x and the corresponding conditional mean of y. 
+<img width="455" alt="image" src="https://github.com/user-attachments/assets/82ceccd1-bf35-46fb-907e-a2e71441709a" />
+here, independant variable means input and dependant variable means output.
 
+A higher degree allows the model to fit the training data more closely, but it may also lead to overfitting. 
 
 
 #### Logistic regression:
+It is a classification type not a logistic regresion type of training.  Types: 
+Binomial: only two possible types of the dependent variables, such as 0 or 1, Pass or Fail, etc.
+Multinomial: In multinomial Logistic regression, there can be 3 or more possible unordered types of the dependent variable, such as “cat”, “dogs”, or “sheep”
+Ordinal: there can be 3 or more possible ordered types of dependent variables, such as “low”, “Medium”, or “High”.
+
 
 #### Evaluation Matrix: 
+measure used to assess the performance of a machine learning model. Different tasks require different evaluation metrics, depending on the specific goals and nature of the problem. some types for regression, classification and clustering are: 
+
+###### Classification: 
+
+* Accuracy:
+  
+  <img width="217" alt="image" src="https://github.com/user-attachments/assets/971e4b91-f82c-407c-b6ae-b361ef019685" />
+  
+* Precision:
+  
+  <img width="228" alt="image" src="https://github.com/user-attachments/assets/a2b90d6e-5fb1-42b2-9db2-110867df6ad0" />
+  
+* Recall (Sensitivity):
+  
+  <img width="202" alt="image" src="https://github.com/user-attachments/assets/cde439df-72e4-4aaf-b950-7675ae3a65ef" />
+  
+* F1 Score:
+  
+  <img width="184" alt="image" src="https://github.com/user-attachments/assets/375d1d3d-ed72-4af3-9fad-6c8a0157eee9" />
+  
+* ROC-AUC (Receiver Operating Characteristic - Area Under Curve):
+
+* Confusion Matrix:
+
+###### Regression Matrix: 
+
+* Mean Absolute Error (MAE):
+  <img width="451" alt="image" src="https://github.com/user-attachments/assets/62f97ab5-c323-4198-a5c0-f345949159bf" />
+
+  
+* Mean Squared Error (MSE):
+  <img width="454" alt="image" src="https://github.com/user-attachments/assets/c158fc3d-b647-4791-ba01-035a8db58816" />
+
+  
+* Root Mean Squared Error (RMSE):
+<img width="344" alt="image" src="https://github.com/user-attachments/assets/2e370af8-4ebb-4cd7-a63e-b2ba4972d2db" />
+
+  
+* R-squared (R²):
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/483d5a23-af8b-48e3-9b6f-312f2901d072" />
+
+  
+###### Clustering Matrix: 
+
+* Silhouette Score: Measures how similar an object is to its own cluster compared to other clusters. Values range from -1 to 1, with higher values indicating better clustering.
+
+* Davies-Bouldin Index: Measures the average similarity ratio of each cluster with respect to the clusters that are most similar to it. Lower values indicate better clustering.
+
+* Adjusted Rand Index (ARI): Measures the similarity between the clustering results and a ground truth class assignment. Values range from -1 to 1, with higher values indicating better clustering.
+
 
 #### SoftMax Regression: 
 
 #### Naive Bayes: 
+supervised machine learning algorithms used for classification tasks, based on Bayes’ Theorem to find probabilities. 
 
 #### Support Vector Machines:
 
