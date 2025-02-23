@@ -272,7 +272,7 @@ supervised machine learning algorithms used for classification tasks, based on B
 * #### Superstrip:
   <img width="264" alt="image" src="https://github.com/user-attachments/assets/0145e054-40ed-4f22-9d58-c107601902fb" />
 
-  It looks like power with circle bracket. It means number of the training example from a list of training examples and their outputs. ex: 1st or 2nd or .....nth size in feet^2 example.
+  It looks like power in circle bracket. It means number of the training example from a list of training examples and their outputs. ex: 1st or 2nd or .....nth size in feet^2 example.
   
   <img width="269" alt="image" src="https://github.com/user-attachments/assets/c8e8911e-3b9c-4e0d-ac35-61c766446a09" />
  
