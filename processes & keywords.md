@@ -156,11 +156,23 @@ There is only Binary and Multiclass classification types of classification in ML
 In ML different types of regression are designed for working with different types of data and predictions. Most commonly used regression types are : Linear regression, Polynomial regression, Ridge Regression, Lasso Regression, Elastic Net Regression, Logistic regression, Support Vector Regression, Decision Tree Regression, Random Forest Regression, Step wise Regression.
 
 
-#### Linear Regression and Types: 
-It is for predictive analysis. 
+#### Single Linear Regression: 
+It is most basic regression and it is for predictive analysis. linear regression model is instantiated to fit a linear relationship between input features (X) and target values (y).
+ex: predicting house prices based on square footage, forecasting sales based on advertising spend, estimating a patient's blood pressure based on their age.
+```
+from sklearn.linear_model import LinearRegression
+
+model = LinearRegression()
+model.fit(X, y)
+
+y_pred = model.predict(X_new)
+```
 
 
-#### Simple /Multiple Linear Regression:
+#### Multiple Linear Regression:
+Most common for of regression. Multiple Linear Regression basically describes how a single response variable Y depends linearly on a number of predictor variables. 
+ex: selling price of house can depend on location, number of bedrooms and bathrooms, built year, area ,etc..
+
 
 #### Polynomial Regresion: 
 
