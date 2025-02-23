@@ -190,7 +190,8 @@ Ordinal: there can be 3 or more possible ordered types of dependent variables, s
 
 
 #### Evaluation Matrix: 
-measure used to assess the performance of a machine learning model. Different tasks require different evaluation metrics, depending on the specific goals and nature of the problem. some types for regression, classification and clustering are: 
+In every ML model training of any type, the goal is to minimise the loss (diffrence between the predicted and actual values).
+This is a measure to check performance of a machine learning model. Different models require different evaluation metrics, depending on the specific goals and nature of the problem. some types for regression, classification:
 
 ###### Classification: 
 
