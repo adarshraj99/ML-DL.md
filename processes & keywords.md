@@ -425,6 +425,9 @@ It is found from standard deviation of each feature and mean from the gallatian 
 
   Make a graph j(vector w, b) vs iterations. Here, j() should decrease after every iteration. If cost function J() is not decreasing then alpha(Learning rate) must be coosen poorly (too large) or potential code bug. After some iterations the curve gets flat and it is not decreasing .Ths is called **convergense**. 
 
+#### aplha (Learning Rate):
+
+
 #### Choosing alpha correctly:
 
 If alpha coosen is too small, it will run very slowly and go up and down or can keep increasing.  If it is too large ,it may not converge . 
