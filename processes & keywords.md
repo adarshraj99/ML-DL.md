@@ -329,11 +329,11 @@ If n is less number eg: n=3. We can do it without vectorization. like:
 
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/713be1d0-8d54-4124-9a77-528233f3411a" />
 
-Can also do it without vectorization with summation and python range(). But, this is not much efficient:
+Can also do it without vectorization with **summation and python range()**. But, this is not much efficient:
 
 <img width="302" alt="image" src="https://github.com/user-attachments/assets/bd3e965f-7b27-4159-ae57-7190949069fa" />
 
-But, if n very big number, need vectorization with python dot() .adv is, It is shorter code and it runs faster as dot() uses muliprocessing .
+But, if n very big number, need vectorization with python dot() .adv is, It is shorter code and it runs faster as **dot() uses muliprocessing** .
 
 <img width="206" alt="image" src="https://github.com/user-attachments/assets/28a15f88-745d-46c0-a3bd-a36f46ee975f" />
 
