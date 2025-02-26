@@ -9,7 +9,7 @@ In a linear 2D neuron like F(x)=W(x)+b with W as weight and b as bias. If we cha
 
 But, Linear function can only combine to make linear functions. But, we need non-linear more complex functions. 
 
-### Convolutional Neural Network(CNN): 
+### Convolutional Neural Network(CNN): Convolutional means twisting, coiling togetner.
 A type of Neural Network with 
 - **input layers**: Passed data (Mainly images in CNN) to other layers.
 - **Convolutional Layers**: Filters input image. Extracts features from input dataset. Applied a set of learnable filters called **Kernels**. These Kernels are small matrices usually 2*2 to 3*3 or 5*5 shape. Different layers checks different parts of input data with the layer available image part. Output of this layer called **future maps**. 
