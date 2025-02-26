@@ -132,6 +132,7 @@ measures the similarity between two clusterings. It ranges from -1 to 1. higher 
 
 ### F1 score: 
 This is harmonic mean of precision and recall ,which are 2 matrics used in supervised learning to evaluate classification model. F1 score can also be used for Unsupervised learning.  Higher F1 score tells models can classify data better. 
+
 `F1 = 2 * (precision * recall) / (precision + recall)`
 It is from 0-100% .Higher F1 score means better model.
 
