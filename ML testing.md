@@ -127,6 +127,9 @@ If the silhoutte scores are high with training data and suddenly score dips afte
 ### Calinski-Harabasz score: 
 The Calinski-Harabasz score measures the ratio between the variance between clusters and the variance within clusters. Ranges from 0 to infinity. Higher score is better clustering.
 
+##### Variance:
+It is a measure of inconsistancy in the model's prediction when the models is trained on different subset of the same data. If variance is high it often leads to overfitting.
+
 ### Adjusted Rand index: 
 measures the similarity between two clusterings. It ranges from -1 to 1. higher scores indicating more similar clusterings.
 
