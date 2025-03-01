@@ -683,7 +683,8 @@ These variables are used to quantize or dequantize weights.
 
 
 ### Activation:
-Activation of the neurons are bascically a measure of how positive the relevant weighted sum is. More activation makes the neuron more light up. Activations are not directly controlled for neural network trainings. We train weights and biases only. Activations are influenced only.
+Activation of the neurons are bascically a measure of how positive the relevant weighted sum is. More activation makes the neuron more light up. Activations are not directly controlled for neural network trainings. We train weights and biases only. Activations are influenced only. 
+Activation functions determine the output of a neuron based on its weighted inputs.
 
 ![image](https://github.com/user-attachments/assets/e7aeb112-28aa-418f-a6ff-c93c70086d62)
 
