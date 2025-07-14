@@ -21,7 +21,8 @@ A type of Neural Network with
 **Activation Layer**:
 - Takes input from convolutional layers. Activation function adds non-linearity to the network. It will apply an **element-wise activation function** to the output of the convolution layer. The data volume dosen't change in this layer.
 
-**Pooling Layer**: This layer is periodically inserted. It's main function is to downsample data for faster computation reduces memory.  2 main types of poolings are: max pooling and average pooling. 
+**Pooling Layer**: 
+- This layer is periodically inserted. It's main function is to downsample data for faster computation reduces memory.  2 main types of poolings are: max pooling and average pooling. 
 Fully connected layers and Output Layers. Convolutional Neural Network is used for **Pattern recognition to match Images or videos**. Each layer of CNN checks for a particular pattern in a part of image(in certain pixels only).
 
 Uses: For Image and video segmentation and detection. Used in CV, selfDriving cars, medical image analysis. 
