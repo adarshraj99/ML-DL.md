@@ -1,11 +1,11 @@
 # Keywords: 
 
 ### Neural Networks: 
-Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, applies calculations(in weights & Biases) and produce output signals. It gets trained with more and more Input data and later by decreasing the error (Cost) following the gradient descent concept. 
+Network of neurons. Neuron is a **Function to be created** if we know some Actual Inputs and Actual Outputs. Neuron is a fundamental processing unit, analogous to brain neurons which receives input signals, **applies calculations(in weights & Biases)** and produce output signals. It gets trained with more and more Input data and later by **decreasing the error (Cost) following the gradient descent concept.** 
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/b11cd770-ac24-47bb-8978-e403256a9e92">
 
-In a linear 2D neuron like F(x)=W(x)+b with W as weight and b as bias. If we change W ,the outputs on 2D graph rotates and if we change the b the output on the 2D graph changes position as up and down. 
+In a linear 2D neuron like **F(x)=W(x)+b** with W as weight and b as bias. If we change W ,the outputs on 2D graph rotates and if we change the b the output on the 2D graph changes position as up and down. 
 
 But, Linear function can only combine to make linear functions. But, we need non-linear more complex functions. 
 
