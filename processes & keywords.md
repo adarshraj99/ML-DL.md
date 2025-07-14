@@ -11,10 +11,17 @@ But, Linear function can only combine to make linear functions. But, we need non
 
 ### Convolutional Neural Network(CNN): Convolutional means twisting, coiling togetner.
 A type of Neural Network with 
-- **input layers**: Passed data (Mainly images in CNN) to other layers.
-- **Convolutional Layers**: Filters input image. Extracts features from input dataset. Applied a set of learnable filters called **Kernels**. These Kernels are small matrices usually 2*2 to 3*3 or 5*5 shape. Different layers checks different parts of input data with the layer available image part. Output of this layer called **future maps**. 
-- **Activation Layer**: Takes input from convolutional layers. Activation function adds non-linearity to the network. It will apply an element-wise activation function to the output of the convolution layer. The data volume dosen't change in this layer.
-- **Pooling Layer**: This layer is periodically inserted. It's main function is to downsample data for faster computation reduces memory.  2 main types of poolings are: max pooling and average pooling. 
+
+**input layers**:
+- Passed data (Mainly images in CNN) to other layers.
+
+**Convolutional Layers**:
+- Filters input image. **Extracts features from input dataset**. Applied a set of learnable filters called **Kernels**. These Kernels are small matrices usually 2*2 to 3*3 or 5*5 shape. Different layers checks different parts of input data with the layer available image part. Output of this layer called **future maps**.
+
+**Activation Layer**:
+- Takes input from convolutional layers. Activation function adds non-linearity to the network. It will apply an **element-wise activation function** to the output of the convolution layer. The data volume dosen't change in this layer.
+
+**Pooling Layer**: This layer is periodically inserted. It's main function is to downsample data for faster computation reduces memory.  2 main types of poolings are: max pooling and average pooling. 
 Fully connected layers and Output Layers. Convolutional Neural Network is used for **Pattern recognition to match Images or videos**. Each layer of CNN checks for a particular pattern in a part of image(in certain pixels only).
 
 Uses: For Image and video segmentation and detection. Used in CV, selfDriving cars, medical image analysis. 
