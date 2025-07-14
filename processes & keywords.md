@@ -9,6 +9,7 @@ In a linear 2D neuron like **F(x)=W(x)+b** with W as weight and b as bias. If we
 
 But, Linear function can only combine to make linear functions. But, we need non-linear more complex functions. 
 
+👉
 ### Convolutional Neural Network(CNN): Convolutional means twisting, coiling togetner.
 A type of Neural Network with 
 
@@ -30,6 +31,7 @@ Convolutional Neural Network is used for **Pattern recognition to match Images o
 Uses: For Image and video segmentation and detection. Used in CV, selfDriving cars, medical image analysis.
 
 
+👉
 ### Recurrent neural network(RNN): 
 Used in processing sequential data like words ,time series. So, used in **Speech recognition, language translation, voice Sentiment analysis**. 
 
@@ -43,29 +45,32 @@ artificial neural network where the architecture is such that **all the nodes, o
 FCNNs are more dense and have more connections than CNNs, but basic design is same.
 
 
+👉
 ### Generative Adversarial Neural Network (GANN): 
 GANs train 2 Neural Networks compete against each other. Used for Deep larning. 1 network(the generator) creates new data and other network(the discriminator) identifies real data from the fake data created by the generator. The discriminator learns to diffrentiate between the 2 types of data. 
 This is used for **Image generation from text, generate music, New Videos, Can generate real training data for other models**.  
 
 ### Deep Q Learning: 
 
+👉
 ### Underfitting vs Overfitting: 
 
+👉
 #### Labelled data: 
 Answer or output of the target variable that a model is trying to predict. This is used to learn and make predictions. Input data is labeled pre-processing of data. 
 
-
+👉
 #### Temprature: 
 Temperature is a parameter in generative AI (GenAI) that controls the randomness of the output. Higher temprature means more creative output and lower temprature gives more predictive output. General range is 0-1. 
 
-
+👉
 #### Tokens: 
 Smallest fundamental independant data blocks made by genAI model from the given input. Model makes small blocks to find which block suits with which block to make a correct output. These can be words, punctuation marks, or even sub-words.
 
 
 #### Embeddings : 
 **Encodes the tokens** with it's meanings based on that token data. As, input passes through the model layers ,tokens gets updated Embeddings. These are a way to represent real-world objects as mathematical vectors. 
-Embeddings capture the meaning and grammatical properties of words. For example, words with similar meanings have similar embeddings. 
+**Embeddings capture the meaning and grammatical properties of words. For example, words with similar meanings have similar embeddings.** 
 Embeddings convert high-dimensional data into low-dimensional vectors. This makes the data easier to process. 
 Used for finding similar texts, images, helps ChatsBots to understand relationship between words and images, Fraud detection by identifying certain similar pattern.
 
